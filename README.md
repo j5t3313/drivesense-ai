@@ -33,7 +33,7 @@ Traditional telemetry systems show **WHERE** time is lost. DriveSense AI reveals
 
 **Prerequisites:**
 - Python 3.10 or higher
-- Toyota GR Cup Series telemetry dataset (provided to judges)
+- Toyota GR Cup Series telemetry datasets for Barber and Indianapolis (too large to include in repo)
 
 ### Setup Instructions
 
