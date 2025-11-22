@@ -277,7 +277,7 @@ if st.session_state.live_analyzer is None:
     
     if st.session_state.get('live_lap_range'):
         start_lap, end_lap = st.session_state.live_lap_range
-        st.info(f" Will analyze {end_lap - start_lap + 1} laps (Laps {start_lap}-{end_lap}) for **{st.session_state.live_vehicle}** at {st.session_state.live_interval}s intervals")
+        st.info(f"⚡ Will analyze {end_lap - start_lap + 1} laps (Laps {start_lap}-{end_lap}) for **{st.session_state.live_vehicle}** at {st.session_state.live_interval}s intervals")
 
 st.markdown("---")
 
@@ -290,9 +290,9 @@ with col1:
     ])
     
     if not can_start:
-        st.warning(" Complete configuration in sidebar first")
+        st.warning("⚠ Complete configuration in sidebar first")
     
-    if st.button(" Start Session", type="primary", disabled=(st.session_state.live_analyzer is not None or not can_start)):
+    if st.button("▶ Start Session", type="primary", disabled=(st.session_state.live_analyzer is not None or not can_start)):
         st.session_state.live_analyzer = LiveRaceAnalyzer(
             track_name=track_name,
             vehicle_id=st.session_state.live_vehicle,
@@ -342,7 +342,7 @@ with col1:
         st.rerun()
 
 with col2:
-    if st.button(" Stop Session", disabled=st.session_state.live_analyzer is None):
+    if st.button("⏹ Stop Session", disabled=st.session_state.live_analyzer is None):
         if st.session_state.simulator:
             st.session_state.simulator.stop()
         
@@ -358,7 +358,7 @@ with col2:
         st.rerun()
 
 with col3:
-    if st.button(" Reset", disabled=st.session_state.live_analyzer is None):
+    if st.button("🔄 Reset", disabled=st.session_state.live_analyzer is None):
         if st.session_state.simulator:
             st.session_state.simulator.stop()
         if st.session_state.watcher:
@@ -424,7 +424,7 @@ if st.session_state.live_analyzer is not None:
         st.info(f"**Latest Flag:** {flag_emoji} {flag}")
     
     if hasattr(st.session_state.live_analyzer, 'has_endurance_data') and st.session_state.live_analyzer.has_endurance_data:
-        st.success("Endurance timing data active (sectors, flags, top speed)")
+        st.success("✓ Endurance timing data active (sectors, flags, top speed)")
     
     st.markdown("---")
     
@@ -437,7 +437,7 @@ if st.session_state.live_analyzer is not None:
             col1, col2 = st.columns([3, 1])
             
             with col1:
-                st.info(f" {results.get('message', 'Lap skipped')}")
+                st.info(f"⏭ {results.get('message', 'Lap skipped')}")
             
             with col2:
                 if results.get('lap_data') and results['lap_data'].get('flag'):
@@ -447,7 +447,7 @@ if st.session_state.live_analyzer is not None:
                     st.warning(f"{flag_emoji} {flag}")
         
         elif results['type'] == 'baseline':
-            st.info(f" {results['message']}")
+            st.info(f"🏁 {results['message']}")
             
             col1, col2 = st.columns([3, 1])
             
@@ -468,19 +468,19 @@ if st.session_state.live_analyzer is not None:
             
             with col1:
                 if results.get('new_reference'):
-                    st.success(f" {results.get('message', 'New best lap!')}")
+                    st.success(f"🏆 {results.get('message', 'New best lap!')}")
                 else:
                     if results.get('lap_time') is not None:
                         if results['delta_to_reference'] is not None:
                             delta = results['delta_to_reference']
                             if delta > 0:
-                                st.warning(f" Lap Time: {results['lap_time']:.3f}s (+{delta:.3f}s vs reference)")
+                                st.warning(f"⏱ Lap Time: {results['lap_time']:.3f}s (+{delta:.3f}s vs reference)")
                             else:
-                                st.success(f" Lap Time: {results['lap_time']:.3f}s ({delta:.3f}s vs reference)")
+                                st.success(f"⏱ Lap Time: {results['lap_time']:.3f}s ({delta:.3f}s vs reference)")
                         else:
-                            st.info(f" Lap Time: {results['lap_time']:.3f}s")
+                            st.info(f"⏱ Lap Time: {results['lap_time']:.3f}s")
                     else:
-                        st.info(" Lap Time: Unable to calculate")
+                        st.info("⏱ Lap Time: Unable to calculate")
                 
                 if results.get('top_speed_delta'):
                     st.metric("Top Speed vs Reference", f"{results['top_speed_delta']:+.1f} km/h")
@@ -495,7 +495,7 @@ if st.session_state.live_analyzer is not None:
             
             with col2:
                 if results.get('alerts'):
-                    st.error(f" {len(results['alerts'])} Alert(s)")
+                    st.error(f"⚠ {len(results['alerts'])} Alert(s)")
             
             with col3:
                 if results.get('lap_data') and results['lap_data'].get('flag'):
@@ -548,7 +548,7 @@ if st.session_state.live_analyzer is not None:
                 elif driver_style:
                     st.info(f"**Style variations at:** {', '.join(driver_style)}")
                 else:
-                    st.success("**All corners executed cleanly!**")
+                    st.success("✓ **All corners executed cleanly!**")
                 
                 st.markdown("---")
                 st.subheader("Detailed Corner Analysis")
@@ -561,10 +561,10 @@ if st.session_state.live_analyzer is not None:
                     
                     with st.expander(
                         f"**{corner_name}**" + 
-                        (f" -  Mistake ({confidence*100:.0f}%)" if classification == 'driver_mistake' and confidence > 0.75 
-                         else f" -  Different line" if classification == 'different_line'
-                         else f" -  Style variation" if classification == 'driver_style'
-                         else " -  Clean"),
+                        (f" - 🔴 Mistake ({confidence*100:.0f}%)" if classification == 'driver_mistake' and confidence > 0.75 
+                         else f" - 🟡 Different line" if classification == 'different_line'
+                         else f" - 🔵 Style variation" if classification == 'driver_style'
+                         else " - ✅ Clean"),
                         expanded=(classification == 'driver_mistake' and confidence > 0.75)
                     ):
                         st.markdown(f"**Classification:** {classification.replace('_', ' ').title()}")
@@ -590,12 +590,12 @@ if st.session_state.live_analyzer is not None:
         
         consistency_data = []
         for corner_name, data in state['consistency_scores'].items():
-            trend_emoji = {'improving': '', 'declining': '', 'stable': ''}
+            trend_emoji = {'improving': '📈', 'declining': '📉', 'stable': '➡'}
             consistency_data.append({
                 'Corner': corner_name,
                 'Score': f"{data['score']:.0f}/100",
                 'Laps': data['laps_analyzed'],
-                'Trend': f"{trend_emoji.get(data['trend'], '')} {data['trend']}"
+                'Trend': f"{trend_emoji.get(data['trend'], '➡')} {data['trend']}"
             })
         
         consistency_data.sort(key=lambda x: float(x['Score'].split('/')[0]))
@@ -619,14 +619,11 @@ if st.session_state.live_analyzer is not None:
         progress = st.session_state.simulator.get_progress()
         st.info(f"Demo Progress: Lap {progress['current_lap']}/{progress['total_laps']}")
         
-        time.sleep(1)
-        try:
-            st.rerun()
-        except:
-            st.experimental_rerun()
+        time.sleep(2)
+        st.rerun()
     
     elif st.session_state.simulator and not st.session_state.simulator.is_running() and st.session_state.live_analyzer:
-        st.success("Session complete! All laps processed.")
+        st.success("✅ Session complete! All laps processed.")
         
         if st.session_state.watcher:
             st.session_state.watcher.stop()
@@ -646,7 +643,7 @@ if st.session_state.live_analyzer is not None:
 
 if st.session_state.get('final_summary'):
     st.markdown("---")
-    st.header("SESSION SUMMARY REPORT")
+    st.header("📊 SESSION SUMMARY REPORT")
     
     summary = st.session_state.final_summary
     
@@ -703,20 +700,20 @@ if st.session_state.get('final_summary'):
         
         col1, col2, col3, col4 = st.columns(4)
         with col1:
-            st.metric("Mean Abs Steering", f"{sm['mean_abs_steering']:.2f}")
+            st.metric("Mean Abs Steering", f"{sm['mean_abs_steering']:.2f}°")
         with col2:
-            st.metric("Max Abs Steering", f"{sm['max_abs_steering']:.2f}")
+            st.metric("Max Abs Steering", f"{sm['max_abs_steering']:.2f}°")
         with col3:
-            st.metric("Std Deviation", f"{sm['std_steering']:.2f}")
+            st.metric("Std Deviation", f"{sm['std_steering']:.2f}°")
         with col4:
             st.metric("Smoothness Score", f"{sm['smoothness']:.1f}/100")
         
         if sm['smoothness'] >= 80:
-            st.success("Excellent steering smoothness - very controlled inputs")
+            st.success("✓ Excellent steering smoothness - very controlled inputs")
         elif sm['smoothness'] >= 60:
-            st.info("Good steering smoothness - minor corrections present")
+            st.info("✓ Good steering smoothness - minor corrections present")
         else:
-            st.warning("Poor steering smoothness - excessive corrections detected")
+            st.warning("⚠ Poor steering smoothness - excessive corrections detected")
     else:
         st.warning("No steering data available")
     
@@ -737,11 +734,11 @@ if st.session_state.get('final_summary'):
             st.metric("Consistency Score", f"{bm['consistency']:.1f}/100")
         
         if bm['consistency'] >= 80:
-            st.success("Excellent brake consistency - very repeatable braking")
+            st.success("✓ Excellent brake consistency - very repeatable braking")
         elif bm['consistency'] >= 60:
-            st.info("Good brake consistency - minor variations present")
+            st.info("✓ Good brake consistency - minor variations present")
         else:
-            st.warning("Poor brake consistency - inconsistent brake application")
+            st.warning("⚠ Poor brake consistency - inconsistent brake application")
     else:
         st.warning("No brake data available")
     
@@ -762,11 +759,11 @@ if st.session_state.get('final_summary'):
             st.metric("Confidence Score", f"{tm['confidence']:.1f}/100")
         
         if tm['confidence'] >= 80:
-            st.success("Excellent throttle confidence - aggressive throttle application")
+            st.success("✓ Excellent throttle confidence - aggressive throttle application")
         elif tm['confidence'] >= 60:
-            st.info("Good throttle confidence - moderate throttle use")
+            st.info("✓ Good throttle confidence - moderate throttle use")
         else:
-            st.warning("Low throttle confidence - conservative on throttle")
+            st.warning("⚠ Low throttle confidence - conservative on throttle")
     else:
         st.warning("No throttle data available")
     
@@ -781,7 +778,7 @@ if st.session_state.get('final_summary'):
             for corner in summary['problem_corners'][:5]:
                 st.markdown(f"- **{corner['corner']}**: {corner['score']:.1f}/100 ({corner['trend']})")
         else:
-            st.success("No problem corners identified!")
+            st.success("✓ No problem corners identified!")
     
     with col2:
         if summary['good_corners']:
@@ -803,15 +800,15 @@ else:
     ### How it works:
     
     **Before Starting:**
-    1.  **Use sidebar to configure:**
+    1. 🎯 **Use sidebar to configure:**
        - **Track:** Barber Motorsports Park or Indianapolis Motor Speedway
        - **Race:** R1 or R2
        - **Vehicle:** Which car to analyze
        - **Lap Range & Interval:** How many laps and at what interval
     
-    2.  **Verify configuration** above shows correct vehicle
+    2. ✅ **Verify configuration** above shows correct vehicle
     
-    3.  **Click "Start Session"** to begin
+    3. ▶ **Click "Start Session"** to begin
     
     **Demo Mode:**
     - Simulates a race session by dropping lap files at regular intervals
@@ -824,5 +821,5 @@ else:
     - Running consistency scores (updated after 3+ laps)
     - Alerts for repeated issues or declining performance
     
-     **Note:** Settings are locked once session starts. Stop the session to change vehicle or configuration.
+    ℹ **Note:** Settings are locked once session starts. Stop the session to change vehicle or configuration.
     """)
