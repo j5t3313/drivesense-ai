@@ -50,15 +50,15 @@ pip install -r requirements.txt
 
 3. **Set up telemetry data:**
 
-Place the provided Toyota GR Cup telemetry files in this structure:
+Place the provided Toyota GR Cup telemetry CSV files directly in the track folders:
 ```
 drivesense-ai/
-├── raw_data/
-│   ├── barber/
-│   │   └── [place Barber CSV files here]
-│   └── indianapolis/
-│       └── [place Indianapolis CSV files here]
+├── barber/
+│   └── [place R1_barber_telemetry_data.csv, R2_barber_telemetry_data.csv, etc.]
+└── indianapolis/
+    └── [place R1_indianapolis_telemetry_data.csv, R2_indianapolis_telemetry_data.csv, etc.]
 ```
+
 
 4. **Preprocess the data:**
 ```bash
