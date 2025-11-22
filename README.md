@@ -1,435 +1,337 @@
 # DriveSense AI
 
-Gradient-based behavioral classification system for motorsport telemetry analysis. Distinguishes between driver mistakes, racing line differences, and technique variations by analyzing derivatives of steering, brake, and throttle inputs rather than traditional speed-based metrics.
+**Gradient-Based Behavioral Classification for Racing Telemetry**
+
+DriveSense AI solves the attribution problem in motorsport telemetry analysis: distinguishing between driver mistakes, intentional technique variations, and different racing lines using first and second derivative analysis of driver inputs.
+
+**Hackathon Category:** Driver Training/Insights  
+**Platform:** Python 3.10+ / Local Deployment  
+**Dataset:** Toyota GR Cup Series Telemetry (Barber Motorsports Park, Indianapolis Motor Speedway)
+
+---
 
 ## Core Innovation
 
-Traditional telemetry analysis identifies **WHERE** time is lost through speed traces and time deltas. DriveSense AI explains **WHY** time is lost by classifying the behavioral cause of performance differences.
+Traditional telemetry systems show **WHERE** time is lost. DriveSense AI reveals **WHY** by analyzing steering angle, brake pressure, and throttle input derivatives rather than speed traces.
 
-### Technical Foundation
+**Key Technical Insight:**
+- Driver mistakes produce high steering jerk (second derivative) due to sudden corrections
+- Intentional technique variations show smooth gradient profiles despite different racing lines
+- Classification thresholds: steering jerk > 2× baseline AND peak gradient > 1.5× reference = mistake (with confidence scoring)
 
-Analyzes first and second derivatives of driver inputs (`steering_angle`, `pbrake_f`, `ath`) to classify behavioral patterns:
+**Signal Processing:**
+- Savitzky-Golay filtering for noise reduction
+- First and second derivative calculation
+- Threshold-based classification with quantified confidence
+- Real-time processing capability (<1s per lap)
 
-- **Driver Mistakes**: High steering jerk (d²θ/ds²) from sudden corrections, asymmetric patterns
-- **Racing Line Differences**: Different gradient profiles with consistent variance (controlled execution)
-- **Brake/Throttle Technique**: Pressure gradient analysis (dp/ds, dath/ds) reveals modulation differences
-
-Uses Savitzky-Golay filtering (window=5, polyorder=2) for derivative smoothing and ratio-based confidence scoring.
-
-## Features
-
-### Single Lap Comparison
-Corner-by-corner analysis of two laps with:
-- Gradient-based behavioral classification per corner
-- Confidence scoring with evidence-based recommendations
-- Sector time deltas and top speed comparison
-- Corner telemetry overlays (steering, brake, throttle)
-
-### Multi-Lap Consistency
-Stint-level performance analysis with:
-- Lap time consistency scoring (coefficient of variation)
-- Corner-by-corner consistency metrics
-- Performance trend detection (improving/stable/declining)
-- Outlier lap identification (>2σ threshold)
-- Sector-level consistency tracking
-
-### Live Session Monitoring
-Real-time analysis pipeline with:
-- File watcher for incoming telemetry (watchdog library)
-- Per-lap gradient analysis vs. baseline
-- Rolling consistency metrics (updates after 3+ laps)
-- Alert system for repeated mistakes or declining performance
-- Flag condition filtering (excludes yellow flag laps)
-- Demo mode for session replay
+---
 
 ## Installation
 
-### Requirements
-- Python 3.10+
-- 8GB+ RAM (processes large telemetry files)
+### Prerequisites
+- Python 3.10 or higher
+- pip package manager
+- 4GB RAM minimum
+- Git
 
-### Setup
+### Setup Instructions
+
+1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/drivesense-ai.git
+git clone https://github.com/[your-username]/drivesense-ai.git
 cd drivesense-ai
+```
+
+2. **Install dependencies:**
+```bash
 pip install -r requirements.txt
 ```
 
-### Dependencies
+3. **Verify data directory structure:**
 ```
-streamlit==1.28.0
-pandas>=1.5.0
-numpy>=1.23.0
-matplotlib>=3.6.0
-scipy>=1.9.0
-watchdog>=3.0.0
-```
-
-## Data Requirements
-
-### Telemetry Format
-Long-format CSV with columns:
-- `lapdist_dls` or `trigger_lapdist_dls`: Distance along lap (meters)
-- `steering_angle`: Steering input (degrees)
-- `pbrake_f`: Front brake pressure (bar)
-- `ath`: Throttle position (%)
-- `speed`: Vehicle speed (km/h)
-- `timestamp`: Sample timestamp
-
-Sampling rate: ~100Hz (varies by parameter)
-
-### Endurance Timing Format
-Semicolon-delimited CSV with columns:
-- `NUMBER`: Vehicle number
-- `LAP_NUMBER`: Lap number
-- `LAP_TIME`: Lap time (mm:ss.sss)
-- `TOP_SPEED`: Top speed (km/h)
-- `S1_SECONDS`, `S2_SECONDS`, `S3_SECONDS`: Sector times
-- `FLAG_AT_FL`: Flag condition (GF, FCY, FF, SC, RED)
-
-### Preprocessing
-Telemetry files must be preprocessed into per-lap CSVs:
-```bash
-python preprocess_data.py --track barber --input raw_telemetry.csv --output processed_data/
+drivesense-ai/
+├── processed_data/
+│   ├── barber/
+│   │   ├── metadata.json
+│   │   ├── [lap files]
+│   └── indianapolis/
+│       ├── metadata.json
+│       ├── [lap files]
 ```
 
-Expected directory structure:
-```
-processed_data/
-├── barber/
-│   ├── metadata.json
-│   ├── lap_001.csv
-│   ├── lap_002.csv
-│   └── AnalysisEnduranceWithSections_Race_1.CSV
-└── indianapolis/
-    ├── metadata.json
-    └── ...
-```
-
-## Usage
-
-### Launch Dashboard
+4. **Launch the application:**
 ```bash
 streamlit run Home.py
 ```
 
-Access at `http://localhost:8501`
+The application will open in your default browser at `http://localhost:8501`
 
-### Single Lap Analysis
-1. Navigate to **Select Data**
-2. Choose track, vehicles, and laps
-3. Click **Run Analysis**
-4. View results in **Analysis Results**
-5. Examine per-corner telemetry in **Corner Details**
+---
 
-### Multi-Lap Consistency
-1. Navigate to **Select Data**
-2. Select **Multi-Lap Consistency** mode
-3. Choose vehicle and lap range
-4. Click **Run Multi-Lap Analysis**
-5. Review consistency scores and trend analysis
+## Usage Guide
 
-### Live Session Demo
-1. Navigate to **Live Session Demo**
-2. Configure track, vehicle, lap range, interval
-3. Click **Start Session**
-4. Monitor real-time analysis as laps arrive
-5. View final summary report after session completion
+### Analysis Modes
 
-## Classification Taxonomy
+#### 1. **Single Lap Comparison**
+Compare two laps with corner-by-corner gradient analysis:
+- Navigate to **Select Data** page
+- Choose analysis mode: "Single Lap Comparison"
+- Select track, race, vehicles, and laps
+- Click **Run Analysis**
+- View detailed classification results in **Analysis Results**
+- Explore per-corner visualizations in **Corner Details**
 
-### Driver Mistakes
-**Detection**: Steering jerk >2× baseline, peak gradient >1.5× reference, asymmetric correction patterns
+#### 2. **Multi-Lap Consistency**
+Track consistency patterns across stints:
+- Navigate to **Select Data** page
+- Choose analysis mode: "Multi-Lap Consistency"
+- Select track, race, vehicle, and lap range
+- Click **Run Multi-Lap Analysis**
+- View consistency scores, trends, and problematic corners
 
-**Evidence**: d²θ/ds² ratio, peak steering input comparison, top speed correlation
+#### 3. **Live Session Demo**
+Real-time lap-by-lap analysis with automatic file monitoring:
+- Navigate to **Live Session Demo** page
+- Configure session (track, race, vehicle, lap range)
+- Click **Start Session**
+- Laps process automatically via file watcher
+- View real-time mistake detection and consistency tracking
+- Click **Stop Session** for comprehensive summary
 
-**Confidence**: Ratio-based (spikiness_a / (spikiness_b + 1)) / 10, capped at 0.95
+**Note:** Live session uses Python's `watchdog` library for automatic file monitoring. Each new lap file triggers immediate gradient analysis against the established baseline.
 
-**Use Cases**: Real-time coaching, lap invalidation, driver development tracking
+---
 
-### Racing Line Differences
-**Detection**: Different peak gradients (>5°/m delta), similar variance (<2°/m delta), smooth profiles
+## Dataset Information
 
-**Evidence**: Gradient consistency check (σ(dθ/ds)), profile matching, geometric deviation
+**Source:** Toyota GR Cup Series Telemetry  
+**Tracks:** Barber Motorsports Park, Indianapolis Motor Speedway  
+**File Format:** CSV with ~100Hz sampling rate  
+**File Sizes:** 1.5-3GB per track (raw), processed to individual lap files
 
-**Confidence**: abs(max_grad_a - max_grad_b) / 20, capped at 0.85
+**Parameters Available:**
+- `steering_angle`: Steering wheel angle (degrees)
+- `pbrake_f`: Front brake pressure (bar)
+- `pbrake_r`: Rear brake pressure (bar)
+- `ath`: Throttle position (%)
+- `speed`: Vehicle speed (km/h)
+- `lapdist_dls`: Distance along lap (meters)
+- GPS coordinates, 3-axis accelerations
 
-**Use Cases**: A/B testing lines, track evolution analysis, setup-induced changes
+**Preprocessing:**
+Raw telemetry is preprocessed into individual lap files with distance validation and duplicate removal. Metadata tracks available laps per vehicle/race combination.
 
-### Brake/Throttle Technique
-**Detection**: Pressure gradient differences (>10 bar/m delta)
+---
 
-**Evidence**: dp/ds comparison, modulation frequency, application smoothness
+## Technical Architecture
 
-**Confidence**: abs(max_brake_grad_a - max_brake_grad_b) / 50, capped at 0.80
+### Core Modules
 
-**Use Cases**: Brake bias optimization, throttle confidence assessment, tire management
+**`gradient_analysis.py`**
+- Input derivative calculation via Savitzky-Golay filtering
+- Behavioral classification (mistakes, line differences, brake technique)
+- Confidence scoring and evidence generation
+- Recommendation generation with priority levels
 
-## Technical Implementation
+**`live_analysis.py`**
+- Real-time session management
+- Baseline establishment and comparison logic
+- Consistency score calculation (coefficient of variation)
+- Alert generation for repeated mistakes
+- Session summary with comprehensive metrics
 
-### Core Algorithms
-- `scipy.signal.savgol_filter`: Derivative smoothing (window=5, polyorder=2)
-- Gradient-based classification with threshold detection
-- Rolling statistics for consistency tracking
-- Coefficient of variation (CV = σ/μ × 100) for consistency scoring
+**`steering_track_comparator.py`**
+- Corner data extraction (apex ± 100m windows)
+- Track configuration management
+- Per-corner telemetry analysis
 
-### Performance
-- Single lap analysis: <2s
-- Multi-lap (15 laps): <5s
-- Live processing latency: <1s per lap
-- Memory efficient: processes 3GB files in chunks
+**`time_delta_calculator.py`**
+- Lap time calculation from telemetry timestamps
+- Corner-level time delta calculation
+- Distance-based time interpolation
 
-### Architecture
-```
-Home.py                      # Main dashboard entry
-pages/
-├── 0_Live_Session_Demo.py   # Real-time analysis interface
-├── 1_Select_Data.py         # Data selection and configuration
-├── 2_Analysis_Results.py    # Results visualization
-└── 3_Corner_Details.py      # Per-corner telemetry overlays
+**`track_configs.py`**
+- Corner definitions with apex distances
+- Track sector boundaries
+- Corner type classification (slow/medium/fast)
 
-Core Modules:
-├── gradient_analysis.py          # Behavioral classification engine
-├── aggregate_analysis.py         # Lap-level metrics (no distance data)
-├── multilap_consistency.py       # Stint-level analysis
-├── live_analysis.py              # Real-time analyzer
-├── lap_time_loader.py            # Timing data integration
-├── endurance_data_loader.py      # Sector times, flags, top speed
-├── steering_track_comparator.py  # Corner extraction
-├── time_delta_calculator.py      # Lap time calculation
-├── track_configs.py              # Track corner definitions
-├── visualizations.py             # Summary charts
-├── corner_visualizations.py      # Per-corner overlays
-├── lap_file_watcher.py           # File monitoring (watchdog)
-└── race_simulator.py             # Demo session simulator
-```
+**`visualizations.py` / `corner_visualizations.py`**
+- Steering/brake/throttle overlay plots
+- Per-corner telemetry visualization
+- Classification summary charts
 
-## Supported Tracks
+**`multilap_consistency.py`**
+- Multi-lap consistency analysis
+- Trend detection (improving/deteriorating/stable)
+- Outlier lap identification
+- Corner-by-corner consistency scoring
 
-### Active Tracks (Distance Data Available)
-- **Barber Motorsports Park**: 10 corners, 3 sectors
-- **Indianapolis Motor Speedway**: 14 corners, 3 sectors
+**`lap_file_watcher.py` / `race_simulator.py`**
+- Automatic file monitoring via `watchdog`
+- Lap file detection and processing
+- Session simulation for demonstrations
 
-Track configurations in `track_configs.py` include corner apex distances, types (slow/medium/fast), and sector boundaries. Additional track configurations (COTA, Road America, Sebring, Sonoma, VIR) are included and can be activated when corresponding telemetry data is available.
+### Classification Taxonomy
 
-## Output Examples
+1. **Driver Mistakes** (High Priority)
+   - Detection: Steering jerk > 2× baseline + peak gradient > 1.5× reference
+   - Evidence: Steering correction magnitude, rate-of-change comparison
+   - Recommendation: Focus on consistency, replicate reference lap approach
 
-### Gradient Analysis Report
-```
-GRADIENT-BASED BEHAVIORAL ANALYSIS
-================================================================================
-Vehicle 321 (Reference) vs Vehicle 322 (Comparison)
-Overall Lap Time Delta: +0.247s
+2. **Racing Line Differences** (Medium Priority)
+   - Detection: Different peak gradients with similar variance
+   - Evidence: Gradient profile comparison, controlled inputs
+   - Recommendation: Evaluate line efficiency, consider reverting if slower
 
-Turn 1 (medium)
-  Vehicle: Vehicle 322
-  Classification: Driver Mistake
-  Confidence: 87.3%
-  Vehicle 322 made a sudden steering correction, likely due to missed braking 
-  point or compromised corner entry
-  Evidence:
-    - Steering correction: 12.45 rate-of-change vs 4.23 on reference (2x higher)
-    - Peak steering input: 8.67°/m vs 4.12°/m (1.5x higher)
-    - Indicates: Late braking or missed turn-in point requiring correction
-  Recommendations:
-    Vehicle 322: Focus on smoother initial turn-in to avoid mid-corner 
-    corrections. Practice consistency in entry speed and brake point.
-```
+3. **Brake Technique Variations** (Medium Priority)
+   - Detection: Brake pressure gradient differences > 10 bar/m
+   - Evidence: Application sharpness comparison
+   - Recommendation: Smoother brake release for better tire grip
 
-### Consistency Report
-```
-MULTI-LAP CONSISTENCY ANALYSIS
-================================================================================
-Vehicle: 321
-Laps Analyzed: 15 (Laps 3 - 17)
+4. **Driver Style Variations** (Low Priority)
+   - Detection: Smooth vs. aggressive input patterns
+   - Evidence: Input modulation frequency
+   - Recommendation: Optimize style for specific corner types
 
-OVERALL LAP TIME CONSISTENCY
---------------------------------------------------------------------------------
-  Average Lap Time: 88.423s
-  Standard Deviation: 0.187s
-  Consistency Score: 89.4/100
+---
 
-  Assessment: EXCELLENT - Very consistent lap times
+## System Requirements
 
-PERFORMANCE TREND
---------------------------------------------------------------------------------
-  Trend: IMPROVING
-  Early Stint Average: 88.621s
-  Late Stint Average: 88.234s
-  Change: -0.44%
+**Minimum:**
+- Python 3.10+
+- 4GB RAM
+- 2GB disk space (with sample data)
+- Modern web browser (Chrome, Firefox, Safari, Edge)
 
-CORNER-BY-CORNER CONSISTENCY
---------------------------------------------------------------------------------
-  Most Inconsistent Corners (need attention):
-    Turn 3: 62.4/100
-    Turn 7: 68.1/100
-    Turn 10: 71.3/100
+**Recommended:**
+- Python 3.11+
+- 8GB RAM
+- 5GB disk space (for additional tracks)
+- Multi-core processor for faster analysis
 
-  Most Consistent Corners:
-    Turn 5: 94.2/100
-    Turn 8: 91.7/100
-    Turn 2: 90.1/100
-```
+---
 
-## Dataset Specifications
+## Key Dependencies
 
-### GR Cup Series Telemetry
-- 2 tracks with complete data: Barber, Indianapolis
-- File sizes: 1.5-3GB per track
-- Parameters: speed, throttle, brake (F/R), steering angle, GPS, accelerations
-- Format: Long-format CSV (telemetry_name/telemetry_value pairs)
-- Sampling rate: ~100Hz (varies by parameter)
+- `streamlit==1.28.0` - Web application framework
+- `pandas>=1.5.0` - Data manipulation
+- `numpy>=1.23.0` - Numerical computation
+- `scipy>=1.9.0` - Signal processing (Savitzky-Golay filtering)
+- `matplotlib>=3.6.0` - Visualization
+- `watchdog>=3.0.0` - File system monitoring (live session)
 
-### Endurance Timing Data
-- Sector times (S1, S2, S3) per lap
-- Top speed tracking
-- Flag conditions (Green, Yellow, Finish, Safety Car, Red)
-- Clean lap identification via flag filtering
+See `requirements.txt` for complete dependency list.
 
-### Data Preprocessing
-- Pivot to wide format for efficient processing
-- Duplicate lap deduplication (keep latest timestamp)
-- Distance calculation fallbacks when unavailable
-- Corner extraction via GPS + steering analysis
-- Smart lap selection based on data quality
-- Clean lap filtering via flag conditions
-- Sector time validation and outlier detection
-
-## Configuration
-
-### Track Configuration
-Edit `track_configs.py` to add new tracks:
-
-```python
-'track_name': {
-    'name': 'Track Display Name',
-    'sectors': [
-        {'name': 'Sector 1', 'end_distance': 1200},
-        {'name': 'Sector 2', 'end_distance': 2400},
-        {'name': 'Sector 3', 'end_distance': 3600}
-    ],
-    'corners': [
-        {'name': 'Turn 1', 'apex_dist_m': 400, 'type': 'medium', 'sector': 1},
-    ]
-}
-```
-
-### Analysis Thresholds
-Modify classification thresholds in `gradient_analysis.py`:
-
-```python
-# Driver mistake detection
-spikiness_threshold = 2.0
-gradient_threshold = 1.5
-
-# Racing line detection
-gradient_delta_threshold = 5
-variance_threshold = 2
-
-# Brake technique detection
-brake_gradient_threshold = 10
-```
+---
 
 ## Project Structure
-
 ```
 drivesense-ai/
-├── Home.py
+├── Home.py                          # Main entry point
 ├── pages/
-│   ├── 0_Live_Session_Demo.py
-│   ├── 1_Select_Data.py
-│   ├── 2_Analysis_Results.py
-│   └── 3_Corner_Details.py
-├── aggregate_analysis.py
-├── corner_visualizations.py
-├── endurance_data_loader.py
-├── gradient_analysis.py
-├── lap_file_watcher.py
-├── lap_time_loader.py
-├── live_analysis.py
-├── multilap_consistency.py
-├── race_simulator.py
-├── steering_track_comparator.py
-├── time_delta_calculator.py
-├── track_configs.py
-├── visualizations.py
-├── requirements.txt
-└── processed_data/
-    ├── barber/
-    │   ├── metadata.json
-    │   ├── lap_001.csv
-    │   └── AnalysisEnduranceWithSections_Race_1.CSV
-    └── indianapolis/
-        └── ...
+│   ├── 0_Live_Session_Demo.py       # Live analysis with file watcher
+│   ├── 1_Select_Data.py             # Data selection interface
+│   ├── 2_Analysis_Results.py        # Results display
+│   └── 3_Corner_Details.py          # Per-corner visualization
+├── gradient_analysis.py             # Core classification engine
+├── live_analysis.py                 # Session management
+├── steering_track_comparator.py     # Corner extraction
+├── time_delta_calculator.py         # Lap time calculation
+├── track_configs.py                 # Track definitions
+├── visualizations.py                # Chart generation
+├── corner_visualizations.py         # Corner detail plots
+├── multilap_consistency.py          # Consistency analysis
+├── lap_file_watcher.py              # File monitoring
+├── race_simulator.py                # Demo session simulation
+├── aggregate_analysis.py            # Lap-level metrics
+├── endurance_data_loader.py         # Endurance data integration
+├── lap_time_loader.py               # Lap time management
+├── processed_data/                  # Preprocessed telemetry
+│   ├── barber/
+│   └── indianapolis/
+├── requirements.txt                 # Python dependencies
+└── README.md                        # This file
 ```
 
-## Methodology
+---
 
-### Gradient Calculation
-```python
-steering_smooth = savgol_filter(steering, window_length=5, polyorder=2)
-steering_derivative = np.gradient(steering_smooth)
-steering_jerk = np.gradient(steering_derivative)
-```
+## Video Demonstration
 
-### Classification Logic
-```python
-if jerk_a > jerk_b * 2 and peak_grad_a > peak_grad_b * 1.5:
-    classification = 'driver_mistake'
-    confidence = min((jerk_a / (jerk_b + 1)) / 10, 0.95)
+[Link to 3-minute demo video showing live session analysis with automatic file watcher]
 
-elif abs(peak_grad_a - peak_grad_b) > 5 and abs(std_grad_a - std_grad_b) < 2:
-    classification = 'different_line'
-    confidence = min(abs(peak_grad_a - peak_grad_b) / 20, 0.85)
+The video demonstrates:
+- Real-time lap processing with automatic file monitoring
+- Mistake detection with confidence scoring (Turn 3: 87% confidence)
+- Line difference classification (Turn 7: intentional variation)
+- Consistency tracking activation after 3+ laps
+- Session summary with comprehensive metrics
 
-elif abs(brake_grad_a - brake_grad_b) > 10:
-    classification = 'brake_technique'
-    confidence = min(abs(brake_grad_a - brake_grad_b) / 50, 0.80)
-```
+---
 
-### Consistency Scoring
-```python
-CV = (std_dev / mean) * 100
-consistency_score = 100 / (1 + CV / 50)
+## Use Cases
 
-early_avg = mean(laps[:n//3])
-late_avg = mean(laps[-n//3:])
+**Practice Session Coaching:**
+Real-time feedback on mistakes and consistency trends for immediate driver improvement.
 
-if late_avg < early_avg * 0.995:
-    trend = 'improving'
-elif late_avg > early_avg * 1.005:
-    trend = 'deteriorating'
-else:
-    trend = 'stable'
-```
+**Race Engineering Support:**
+Live analysis during sessions to inform pit strategy and setup decisions.
 
-## Development
+**Driver Development:**
+Multi-lap consistency tracking to measure skill progression and identify training focus areas.
 
-### Adding New Tracks
-1. Add track configuration to `track_configs.py`
-2. Determine corner apex distances from track map or telemetry analysis
-3. Define sector boundaries
-4. Classify corner types based on typical speeds
-5. Preprocess telemetry data into per-lap CSVs
+**Post-Session Debrief:**
+Detailed corner-by-corner analysis with specific, evidence-based recommendations.
 
-### Extending Classification
-Add new behavioral patterns in `gradient_analysis.py`:
+**Setup Validation:**
+Compare lap performance before/after setup changes with behavioral attribution.
 
-```python
-def classify_driver_behavior_by_gradient(corner_data_a, corner_data_b, ...):
-    
-    elif your_condition:
-        classification = {
-            'type': 'your_pattern',
-            'description': 'Explanation',
-            'confidence': calculate_confidence(),
-            'evidence': ['Evidence point 1', 'Evidence point 2']
-        }
-    
-    return classification
-```
+---
 
-## Limitations
+## Open Source Components
+
+This project uses the following open-source libraries:
+- **Streamlit** (Apache 2.0): Web application framework
+- **pandas** (BSD 3-Clause): Data manipulation
+- **NumPy** (BSD 3-Clause): Numerical computation
+- **SciPy** (BSD 3-Clause): Signal processing
+- **Matplotlib** (PSF): Visualization
+- **watchdog** (Apache 2.0): File system monitoring
+
+All components are used in compliance with their respective licenses.
+
+---
+
+## Technical Validation
+
+**Classification Accuracy:**
+- Manual validation against expert driver analysis
+- Confidence thresholds tuned to minimize false positives
+- Evidence-based recommendations with quantified metrics
+
+**Performance:**
+- Single lap analysis: <2 seconds
+- Multi-lap (15 laps): <5 seconds  
+- Live processing latency: <1 second per lap
+- Memory efficient: processes 3GB files in chunks
+
+**Scalability:**
+- Modular corner configurations per track
+- Extensible classification system
+- Parallel processing ready (future enhancement)
+
+---
+
+## Future Enhancements
+
+- **Additional Tracks:** Extend to full GR Cup Series calendar
+- **Machine Learning:** Train classifiers on labeled mistake dataset
+- **Predictive Analysis:** Forecast consistency degradation
+- **Multi-Vehicle Comparison:** Fleet-wide performance benchmarking
+- **API Integration:** Direct data acquisition system connection
+
+
+**Note:** This application is designed for local deployment to support automatic file monitoring capabilities. The live session feature uses Python's `watchdog` library to monitor incoming telemetry files, enabling real-time analysis for pit-side deployment scenarios.
 
 - Requires high-quality distance data for gradient analysis
 - Corner apex distances must be manually configured per track
@@ -438,21 +340,3 @@ def classify_driver_behavior_by_gradient(corner_data_a, corner_data_b, ...):
 - Best suited for circuit racing
 - Classification thresholds may need tuning for different vehicle classes
 
-## Future Enhancements
-
-- Automatic corner detection via GPS + steering pattern analysis
-- Machine learning classification model trained on expert-labeled data
-- Real-time streaming telemetry integration
-- Tire temperature/pressure correlation with consistency scores
-- Weather condition impact on performance deltas
-- Driver fatigue detection via consistency degradation patterns
-- Multi-vehicle race strategy optimization
-- Predictive lap time modeling based on driving style
-
-## License
-
-MIT License
-
-## Contact
-
-For dataset access, algorithm details, or collaboration inquiries, open an issue on GitHub.
