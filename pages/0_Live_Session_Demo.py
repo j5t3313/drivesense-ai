@@ -3,7 +3,6 @@ import pandas as pd
 from pathlib import Path
 import sys
 from datetime import datetime
-import time
 import json
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -180,6 +179,8 @@ if 'latest_results' not in st.session_state:
     st.session_state.latest_results = None
 if 'final_summary' not in st.session_state:
     st.session_state.final_summary = None
+if 'session_initialized' not in st.session_state:
+    st.session_state.session_initialized = False
 
 available_tracks = [d.name for d in PROCESSED_DATA_DIR.iterdir() if d.is_dir()] if PROCESSED_DATA_DIR.exists() else []
 
@@ -273,21 +274,22 @@ col1, col2, col3 = st.columns(3)
 with col1:
     can_start = all([
         st.session_state.get('live_race'),
-        st.session_state.get('live_vehicle')
+        st.session_state.get('live_vehicle'),
+        not st.session_state.session_initialized
     ])
     
-    if not can_start:
+    if not can_start and not st.session_state.session_initialized:
         st.warning("⚙️ Complete configuration in sidebar first")
     
     if st.button("▶ Start Session", type="primary", disabled=(st.session_state.live_analyzer is not None or not can_start)):
-        st.session_state.live_analyzer = LiveRaceAnalyzer(
-            track_name=track_name,
-            vehicle_id=st.session_state.live_vehicle,
-            race=st.session_state.live_race,
-            processed_data_dir=str(PROCESSED_DATA_DIR)
-        )
-        
         try:
+            st.session_state.live_analyzer = LiveRaceAnalyzer(
+                track_name=track_name,
+                vehicle_id=st.session_state.live_vehicle,
+                race=st.session_state.live_race,
+                processed_data_dir=str(PROCESSED_DATA_DIR)
+            )
+            
             lap_files = setup_demo_session(
                 track_name,
                 st.session_state.live_vehicle,
@@ -300,15 +302,15 @@ with col1:
             st.session_state.demo_lap_numbers = list(range(st.session_state.live_lap_range[0], st.session_state.live_lap_range[1] + 1))
             st.session_state.demo_current_index = 0
             st.session_state.latest_results = None
+            st.session_state.session_initialized = True
+            
+            st.rerun()
             
         except Exception as e:
             st.error(f"Error setting up demo: {e}")
             st.session_state.live_analyzer = None
+            st.session_state.session_initialized = False
             st.stop()
-        
-        st.success("Session started! Click 'Process Next Lap' below.")
-        time.sleep(1)
-        st.rerun()
 
 with col2:
     if st.button("⏹ Stop Session", disabled=st.session_state.live_analyzer is None):
@@ -321,22 +323,20 @@ with col2:
         st.session_state.demo_lap_numbers = []
         st.session_state.demo_current_index = 0
         st.session_state.latest_results = None
+        st.session_state.session_initialized = False
         
-        st.success("Session stopped")
-        time.sleep(1)
         st.rerun()
 
 with col3:
-    if st.button("🔄 Reset", disabled=st.session_state.live_analyzer is None):
+    if st.button("🔄 Reset"):
         st.session_state.live_analyzer = None
         st.session_state.demo_lap_files = []
         st.session_state.demo_lap_numbers = []
         st.session_state.demo_current_index = 0
         st.session_state.latest_results = None
         st.session_state.final_summary = None
+        st.session_state.session_initialized = False
         
-        st.success("Session reset")
-        time.sleep(1)
         st.rerun()
 
 st.markdown("---")
@@ -374,7 +374,7 @@ if st.session_state.live_analyzer is not None:
     
     with col1:
         if st.session_state.demo_current_index < len(st.session_state.demo_lap_files):
-            if st.button("▶ Process Next Lap", type="primary", use_container_width=True):
+            if st.button("▶ Process Next Lap", type="primary", use_container_width=True, key="process_lap_btn"):
                 lap_file = st.session_state.demo_lap_files[st.session_state.demo_current_index]
                 lap_num = st.session_state.demo_lap_numbers[st.session_state.demo_current_index]
                 
@@ -386,17 +386,23 @@ if st.session_state.live_analyzer is not None:
                 st.rerun()
         else:
             st.success("✅ All laps processed!")
+            if st.button("View Summary", type="primary", use_container_width=True):
+                summary = st.session_state.live_analyzer.end_session()
+                st.session_state.final_summary = summary
+                st.session_state.live_analyzer = None
+                st.session_state.session_initialized = False
+                st.rerun()
     
     with col2:
         if st.session_state.demo_current_index < len(st.session_state.demo_lap_files):
             next_lap = st.session_state.demo_lap_numbers[st.session_state.demo_current_index]
             st.info(f"Ready to process Lap {next_lap}")
         else:
-            st.info("Click 'Stop Session' to view final summary")
+            st.info("All laps processed! Click 'View Summary' or 'Stop Session'")
     
     if st.session_state.latest_results:
         st.markdown("---")
-        st.header(f"📊 Latest Lap (Lap {st.session_state.latest_results['lap']}) Results")
+        st.header(f"📊 Lap {st.session_state.latest_results['lap']} Results")
         
         results = st.session_state.latest_results
         
@@ -552,7 +558,7 @@ if st.session_state.live_analyzer is not None:
 
 if st.session_state.final_summary and st.session_state.live_analyzer is None:
     st.markdown("---")
-    st.header("SESSION SUMMARY REPORT")
+    st.header("📋 SESSION SUMMARY REPORT")
     
     summary = st.session_state.final_summary
     
@@ -588,8 +594,8 @@ if st.session_state.final_summary and st.session_state.live_analyzer is None:
         with col3:
             st.metric("Consistency Score", f"{lt['consistency_score']:.1f}/100")
             if 'trend' in lt:
-                trend_emoji = {'improving': '[UP]', 'deteriorating': '[DOWN]', 'stable': '[->]'}
-                st.metric("Performance Trend", f"{trend_emoji.get(lt['trend'], '[->]')} {lt['trend'].upper()}")
+                trend_emoji = {'improving': '📈', 'deteriorating': '📉', 'stable': '➡️'}
+                st.metric("Performance Trend", f"{trend_emoji.get(lt['trend'], '➡️')} {lt['trend'].upper()}")
         
         if summary['lap_times']:
             st.markdown("**All Lap Times:**")
@@ -701,7 +707,7 @@ if st.session_state.final_summary and st.session_state.live_analyzer is None:
         st.session_state.final_summary = None
         st.rerun()
 
-if st.session_state.live_analyzer is None and st.session_state.final_summary is None:
+elif st.session_state.live_analyzer is None and st.session_state.final_summary is None:
     st.info("Click 'Start Session' to begin live race analysis")
     st.markdown("""
     ### How it works:
@@ -711,14 +717,14 @@ if st.session_state.live_analyzer is None and st.session_state.final_summary is 
     2. Click "Start Session"
     3. Click "Process Next Lap" to analyze each lap sequentially
     4. View real-time analysis after each lap
-    5. Click "Stop Session" when finished to see full summary
+    5. Click "View Summary" when finished to see full session report
     
     ### Features:
     - Lap-by-lap comparison to reference lap
     - Corner-by-corner behavioral classification
     - Mistake detection with confidence scores
     - Consistency tracking
-    - Final session summary with detailed metrics
+    - Comprehensive session summary with detailed metrics
     
-    **Note:** Process laps at your own pace by clicking "Process Next Lap" button.
+    **Note:** Click "Process Next Lap" at your own pace to step through the analysis.
     """)
