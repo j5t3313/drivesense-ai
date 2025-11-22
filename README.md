@@ -324,15 +324,6 @@ All components are used in compliance with their respective licenses.
 
 ---
 
-## Future Enhancements
-
-- **Additional Tracks:** Extend to full GR Cup Series calendar
-- **Machine Learning:** Train classifiers on labeled mistake dataset
-- **Predictive Analysis:** Forecast consistency degradation
-- **Multi-Vehicle Comparison:** Fleet-wide performance benchmarking
-- **API Integration:** Direct data acquisition system connection
-
-
 **Note:** This application is designed for local deployment to support automatic file monitoring capabilities. The live session feature uses Python's `watchdog` library to monitor incoming telemetry files, enabling real-time analysis for pit-side deployment scenarios.
 
 - Requires high-quality distance data for gradient analysis
