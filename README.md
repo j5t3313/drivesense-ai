@@ -31,17 +31,15 @@ Traditional telemetry systems show **WHERE** time is lost. DriveSense AI reveals
 
 ## Installation
 
-### Prerequisites
+**Prerequisites:**
 - Python 3.10 or higher
-- pip package manager
-- 4GB RAM minimum
-- Git
+- Toyota GR Cup Series telemetry dataset (provided to judges)
 
 ### Setup Instructions
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/j5t3313/drivesense-ai.git
+git clone https://github.com/[your-username]/drivesense-ai.git
 cd drivesense-ai
 ```
 
@@ -50,24 +48,31 @@ cd drivesense-ai
 pip install -r requirements.txt
 ```
 
-3. **Verify data directory structure:**
+3. **Set up telemetry data:**
+
+Place the provided Toyota GR Cup telemetry files in this structure:
 ```
 drivesense-ai/
-├── processed_data/
+├── raw_data/
 │   ├── barber/
-│   │   ├── metadata.json
-│   │   ├── [lap files]
+│   │   └── [place Barber CSV files here]
 │   └── indianapolis/
-│       ├── metadata.json
-│       ├── [lap files]
+│       └── [place Indianapolis CSV files here]
 ```
 
-4. **Launch the application:**
+4. **Preprocess the data:**
+```bash
+python preprocess_data.py
+```
+
+This splits raw telemetry into individual lap files and generates metadata.
+
+5. **Launch the application:**
 ```bash
 streamlit run Home.py
 ```
 
-The application will open in your default browser at `http://localhost:8501`
+The application will open in your browser at `http://localhost:8501`
 
 ---
 
