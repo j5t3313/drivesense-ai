@@ -2,10 +2,12 @@
 
 **Gradient-Based Behavioral Classification for Racing Telemetry**
 
-DriveSense AI solves the attribution problem in motorsport telemetry analysis: distinguishing between driver mistakes, intentional technique variations, and different racing lines using first and second derivative analysis of driver inputs.
+Analyzes steering, brake, and throttle derivatives to identify driver mistakes versus intentional technique variations.
 
 **Hackathon Category:** Driver Training/Insights  
+
 **Platform:** Python 3.10+ / Local Deployment  
+
 **Dataset:** Toyota GR Cup Series Telemetry (Barber Motorsports Park, Indianapolis Motor Speedway)
 
 ---
