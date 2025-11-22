@@ -39,7 +39,7 @@ Traditional telemetry systems show **WHERE** time is lost. DriveSense AI reveals
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/[your-username]/drivesense-ai.git
+git clone https://github.com/j5t3313/drivesense-ai.git
 cd drivesense-ai
 ```
 
