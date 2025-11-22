@@ -1,0 +1,227 @@
+
+================================================================================
+EDA SUMMARY REPORT: BARBER
+================================================================================
+
+DATASETS OVERVIEW:
+--------------------------------------------------------------------------------
+
+03_Provisional Results_Race 1_Anonymized:
+  Path: 03_Provisional Results_Race 1_Anonymized.CSV
+  Rows: 22
+  Columns: 1
+  Size: 0.00 MB
+
+03_Provisional Results_Race 2_Anonymized:
+  Path: 03_Provisional Results_Race 2_Anonymized.CSV
+  Rows: 22
+  Columns: 1
+  Size: 0.00 MB
+
+03_Results GR Cup Race 2 Official_Anonymized:
+  Path: 03_Results GR Cup Race 2 Official_Anonymized.CSV
+  Rows: 22
+  Columns: 1
+  Size: 0.00 MB
+
+05_Provisional Results by Class_Race 1_Anonymized:
+  Path: 05_Provisional Results by Class_Race 1_Anonymized.CSV
+  Rows: 22
+  Columns: 1
+  Size: 0.00 MB
+
+05_Provisional Results by Class_Race 2_Anonymized:
+  Path: 05_Provisional Results by Class_Race 2_Anonymized.CSV
+  Rows: 22
+  Columns: 1
+  Size: 0.00 MB
+
+05_Results by Class GR Cup Race 1 Official_Anonymized:
+  Path: 05_Results by Class GR Cup Race 1 Official_Anonymized.CSV
+  Rows: 22
+  Columns: 1
+  Size: 0.00 MB
+
+23_AnalysisEnduranceWithSections_Race 1_Anonymized:
+  Path: 23_AnalysisEnduranceWithSections_Race 1_Anonymized.CSV
+  Rows: 579
+  Columns: 1
+  Size: 0.14 MB
+
+23_AnalysisEnduranceWithSections_Race 2_Anonymized:
+  Path: 23_AnalysisEnduranceWithSections_Race 2_Anonymized.CSV
+  Rows: 602
+  Columns: 1
+  Size: 0.14 MB
+
+26_Weather_Race 1_Anonymized:
+  Path: 26_Weather_Race 1_Anonymized.CSV
+  Rows: 43
+  Columns: 1
+  Size: 0.00 MB
+
+26_Weather_Race 2_Anonymized:
+  Path: 26_Weather_Race 2_Anonymized.CSV
+  Rows: 44
+  Columns: 1
+  Size: 0.00 MB
+
+99_Best 10 Laps By Driver_Race 1_Anonymized:
+  Path: 99_Best 10 Laps By Driver_Race 1_Anonymized.CSV
+  Rows: 22
+  Columns: 1
+  Size: 0.00 MB
+
+99_Best 10 Laps By Driver_Race 2_Anonymized:
+  Path: 99_Best 10 Laps By Driver_Race 2_Anonymized.CSV
+  Rows: 22
+  Columns: 1
+  Size: 0.00 MB
+
+R1_barber_lap_end:
+  Path: R1_barber_lap_end.csv
+  Rows: 571
+  Columns: 11
+  Size: 0.06 MB
+
+R1_barber_lap_start:
+  Path: R1_barber_lap_start.csv
+  Rows: 571
+  Columns: 11
+  Size: 0.06 MB
+
+R1_barber_lap_time:
+  Path: R1_barber_lap_time.csv
+  Rows: 571
+  Columns: 11
+  Size: 0.06 MB
+
+R1_barber_telemetry_data:
+  Path: R1_barber_telemetry_data.csv
+  Rows: 11,556,519
+  Columns: 13
+  Size: 1485.13 MB
+
+R2_barber_lap_end:
+  Path: R2_barber_lap_end.csv
+  Rows: 595
+  Columns: 11
+  Size: 0.07 MB
+
+R2_barber_lap_start:
+  Path: R2_barber_lap_start.csv
+  Rows: 595
+  Columns: 11
+  Size: 0.07 MB
+
+R2_barber_lap_time:
+  Path: R2_barber_lap_time.csv
+  Rows: 595
+  Columns: 11
+  Size: 0.07 MB
+
+R2_barber_telemetry_data:
+  Path: R2_barber_telemetry_data.csv
+  Rows: 11,749,604
+  Columns: 13
+  Size: 1510.02 MB
+
+
+DATA QUALITY:
+--------------------------------------------------------------------------------
+
+03_Provisional Results_Race 1_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 22
+
+03_Provisional Results_Race 2_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 22
+
+03_Results GR Cup Race 2 Official_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 22
+
+05_Provisional Results by Class_Race 1_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 22
+
+05_Provisional Results by Class_Race 2_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 22
+
+05_Results by Class GR Cup Race 1 Official_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 22
+
+23_AnalysisEnduranceWithSections_Race 1_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 579
+
+23_AnalysisEnduranceWithSections_Race 2_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 602
+
+26_Weather_Race 1_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 43
+
+26_Weather_Race 2_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 44
+
+99_Best 10 Laps By Driver_Race 1_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 22
+
+99_Best 10 Laps By Driver_Race 2_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 22
+
+R1_barber_lap_end:
+  Completeness: 90.91%
+  Missing values: 571 / 6,281
+  Columns with missing data:
+    - expire_at: 571 (100.0%)
+
+R1_barber_lap_start:
+  Completeness: 90.91%
+  Missing values: 571 / 6,281
+  Columns with missing data:
+    - expire_at: 571 (100.0%)
+
+R1_barber_lap_time:
+  Completeness: 90.91%
+  Missing values: 571 / 6,281
+  Columns with missing data:
+    - expire_at: 571 (100.0%)
+
+R1_barber_telemetry_data:
+  Completeness: 92.31%
+  Missing values: 11,556,519 / 150,234,747
+  Columns with missing data:
+    - expire_at: 11556519 (100.0%)
+
+R2_barber_lap_end:
+  Completeness: 90.91%
+  Missing values: 595 / 6,545
+  Columns with missing data:
+    - expire_at: 595 (100.0%)
+
+R2_barber_lap_start:
+  Completeness: 90.91%
+  Missing values: 595 / 6,545
+  Columns with missing data:
+    - expire_at: 595 (100.0%)
+
+R2_barber_lap_time:
+  Completeness: 90.91%
+  Missing values: 595 / 6,545
+  Columns with missing data:
+    - expire_at: 595 (100.0%)
+
+R2_barber_telemetry_data:
+  Completeness: 92.31%
+  Missing values: 11,749,604 / 152,744,852
+  Columns with missing data:
+    - expire_at: 11749604 (100.0%)

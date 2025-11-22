@@ -1,0 +1,257 @@
+
+================================================================================
+EDA SUMMARY REPORT: INDIANAPOLIS
+================================================================================
+
+DATASETS OVERVIEW:
+--------------------------------------------------------------------------------
+
+03_GR Cup Race 1 Official Results:
+  Path: 03_GR Cup Race 1 Official Results.CSV
+  Rows: 29
+  Columns: 1
+  Size: 0.00 MB
+
+03_GR Cup Race 2 Official Results:
+  Path: 03_GR Cup Race 2 Official Results.CSV
+  Rows: 29
+  Columns: 1
+  Size: 0.00 MB
+
+03_Provisional Results_Race 1:
+  Path: 03_Provisional Results_Race 1.CSV
+  Rows: 29
+  Columns: 1
+  Size: 0.00 MB
+
+03_Provisional Results_Race 2:
+  Path: 03_Provisional Results_Race 2.CSV
+  Rows: 29
+  Columns: 1
+  Size: 0.00 MB
+
+05_GR Cup Race 1 Official Results by Class:
+  Path: 05_GR Cup Race 1 Official Results by Class.CSV
+  Rows: 29
+  Columns: 1
+  Size: 0.00 MB
+
+05_GR Cup Race 2 Official Results by Class:
+  Path: 05_GR Cup Race 2 Official Results by Class.CSV
+  Rows: 29
+  Columns: 1
+  Size: 0.00 MB
+
+05_Provisional Results by Class_Race 1:
+  Path: 05_Provisional Results by Class_Race 1.CSV
+  Rows: 29
+  Columns: 1
+  Size: 0.00 MB
+
+05_Provisionals Results by Class_Race 2:
+  Path: 05_Provisionals Results by Class_Race 2.CSV
+  Rows: 29
+  Columns: 1
+  Size: 0.00 MB
+
+23_AnalysisEnduranceWithSections_Race 1:
+  Path: 23_AnalysisEnduranceWithSections_Race 1.CSV
+  Rows: 669
+  Columns: 1
+  Size: 0.19 MB
+
+23_AnalysisEnduranceWithSections_Race 2:
+  Path: 23_AnalysisEnduranceWithSections_Race 2.CSV
+  Rows: 617
+  Columns: 1
+  Size: 0.17 MB
+
+26_Weather_Race 1:
+  Path: 26_Weather_Race 1.CSV
+  Rows: 45
+  Columns: 1
+  Size: 0.00 MB
+
+26_Weather_Race 2:
+  Path: 26_Weather_Race 2.CSV
+  Rows: 43
+  Columns: 1
+  Size: 0.00 MB
+
+99_Best 10 Laps By Driver_Race 1:
+  Path: 99_Best 10 Laps By Driver_Race 1.CSV
+  Rows: 29
+  Columns: 1
+  Size: 0.01 MB
+
+99_Best 10 Laps By Driver_Race 2:
+  Path: 99_Best 10 Laps By Driver_Race 2.CSV
+  Rows: 29
+  Columns: 1
+  Size: 0.01 MB
+
+GR Drivers Championship-1:
+  Path: GR Drivers Championship-1.csv
+  Rows: 41
+  Columns: 1
+  Size: 0.02 MB
+
+R1_indianapolis_motor_speedway_lap_end:
+  Path: R1_indianapolis_motor_speedway_lap_end.csv
+  Rows: 739
+  Columns: 11
+  Size: 0.08 MB
+
+R1_indianapolis_motor_speedway_lap_start:
+  Path: R1_indianapolis_motor_speedway_lap_start.csv
+  Rows: 734
+  Columns: 11
+  Size: 0.08 MB
+
+R1_indianapolis_motor_speedway_lap_time:
+  Path: R1_indianapolis_motor_speedway_lap_time.csv
+  Rows: 739
+  Columns: 11
+  Size: 0.08 MB
+
+R1_indianapolis_motor_speedway_telemetry:
+  Path: R1_indianapolis_motor_speedway_telemetry.csv
+  Rows: 21,454,865
+  Columns: 13
+  Size: 2847.83 MB
+
+R2_indianapolis_motor_speedway_lap_end:
+  Path: R2_indianapolis_motor_speedway_lap_end.csv
+  Rows: 665
+  Columns: 11
+  Size: 0.08 MB
+
+R2_indianapolis_motor_speedway_lap_start:
+  Path: R2_indianapolis_motor_speedway_lap_start.csv
+  Rows: 664
+  Columns: 11
+  Size: 0.08 MB
+
+R2_indianapolis_motor_speedway_lap_time:
+  Path: R2_indianapolis_motor_speedway_lap_time.csv
+  Rows: 662
+  Columns: 11
+  Size: 0.08 MB
+
+R2_indianapolis_motor_speedway_telemetry:
+  Path: R2_indianapolis_motor_speedway_telemetry.csv
+  Rows: 23,064,086
+  Columns: 13
+  Size: 3064.44 MB
+
+
+DATA QUALITY:
+--------------------------------------------------------------------------------
+
+03_GR Cup Race 1 Official Results:
+  Completeness: 100.00%
+  Missing values: 0 / 29
+
+03_GR Cup Race 2 Official Results:
+  Completeness: 100.00%
+  Missing values: 0 / 29
+
+03_Provisional Results_Race 1:
+  Completeness: 100.00%
+  Missing values: 0 / 29
+
+03_Provisional Results_Race 2:
+  Completeness: 100.00%
+  Missing values: 0 / 29
+
+05_GR Cup Race 1 Official Results by Class:
+  Completeness: 100.00%
+  Missing values: 0 / 29
+
+05_GR Cup Race 2 Official Results by Class:
+  Completeness: 100.00%
+  Missing values: 0 / 29
+
+05_Provisional Results by Class_Race 1:
+  Completeness: 100.00%
+  Missing values: 0 / 29
+
+05_Provisionals Results by Class_Race 2:
+  Completeness: 100.00%
+  Missing values: 0 / 29
+
+23_AnalysisEnduranceWithSections_Race 1:
+  Completeness: 100.00%
+  Missing values: 0 / 669
+
+23_AnalysisEnduranceWithSections_Race 2:
+  Completeness: 100.00%
+  Missing values: 0 / 617
+
+26_Weather_Race 1:
+  Completeness: 100.00%
+  Missing values: 0 / 45
+
+26_Weather_Race 2:
+  Completeness: 100.00%
+  Missing values: 0 / 43
+
+99_Best 10 Laps By Driver_Race 1:
+  Completeness: 100.00%
+  Missing values: 0 / 29
+
+99_Best 10 Laps By Driver_Race 2:
+  Completeness: 100.00%
+  Missing values: 0 / 29
+
+GR Drivers Championship-1:
+  Completeness: 100.00%
+  Missing values: 0 / 41
+
+R1_indianapolis_motor_speedway_lap_end:
+  Completeness: 90.91%
+  Missing values: 739 / 8,129
+  Columns with missing data:
+    - expire_at: 739 (100.0%)
+
+R1_indianapolis_motor_speedway_lap_start:
+  Completeness: 90.91%
+  Missing values: 734 / 8,074
+  Columns with missing data:
+    - expire_at: 734 (100.0%)
+
+R1_indianapolis_motor_speedway_lap_time:
+  Completeness: 90.91%
+  Missing values: 739 / 8,129
+  Columns with missing data:
+    - expire_at: 739 (100.0%)
+
+R1_indianapolis_motor_speedway_telemetry:
+  Completeness: 92.31%
+  Missing values: 21,454,865 / 278,913,245
+  Columns with missing data:
+    - expire_at: 21454865 (100.0%)
+
+R2_indianapolis_motor_speedway_lap_end:
+  Completeness: 90.91%
+  Missing values: 665 / 7,315
+  Columns with missing data:
+    - expire_at: 665 (100.0%)
+
+R2_indianapolis_motor_speedway_lap_start:
+  Completeness: 90.91%
+  Missing values: 664 / 7,304
+  Columns with missing data:
+    - expire_at: 664 (100.0%)
+
+R2_indianapolis_motor_speedway_lap_time:
+  Completeness: 90.91%
+  Missing values: 662 / 7,282
+  Columns with missing data:
+    - expire_at: 662 (100.0%)
+
+R2_indianapolis_motor_speedway_telemetry:
+  Completeness: 92.31%
+  Missing values: 23,064,086 / 299,833,118
+  Columns with missing data:
+    - expire_at: 23064086 (100.0%)

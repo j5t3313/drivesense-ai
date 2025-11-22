@@ -1,0 +1,217 @@
+
+================================================================================
+EDA SUMMARY REPORT: COTA
+================================================================================
+
+DATASETS OVERVIEW:
+--------------------------------------------------------------------------------
+
+Race 1_00_Results GR Cup Race 1 Official_Anonymized:
+  Path: Race 1\00_Results GR Cup Race 1 Official_Anonymized.CSV
+  Rows: 31
+  Columns: 1
+  Size: 0.00 MB
+
+Race 1_03_Provisional Results_Race 1_Anonymized:
+  Path: Race 1\03_Provisional Results_Race 1_Anonymized.CSV
+  Rows: 31
+  Columns: 1
+  Size: 0.00 MB
+
+Race 1_05_Provisional Results by Class_Race 1_Anonymized:
+  Path: Race 1\05_Provisional Results by Class_Race 1_Anonymized.CSV
+  Rows: 31
+  Columns: 1
+  Size: 0.00 MB
+
+Race 1_23_AnalysisEnduranceWithSections_Race 1_Anonymized:
+  Path: Race 1\23_AnalysisEnduranceWithSections_Race 1_Anonymized.CSV
+  Rows: 486
+  Columns: 1
+  Size: 0.12 MB
+
+Race 1_26_Weather_Race 1_Anonymized:
+  Path: Race 1\26_Weather_Race 1_Anonymized.CSV
+  Rows: 44
+  Columns: 1
+  Size: 0.00 MB
+
+Race 1_99_Best 10 Laps By Driver_Race 1_Anonymized:
+  Path: Race 1\99_Best 10 Laps By Driver_Race 1_Anonymized.CSV
+  Rows: 31
+  Columns: 1
+  Size: 0.00 MB
+
+Race 1_COTA_lap_end_time_R1:
+  Path: Race 1\COTA_lap_end_time_R1.csv
+  Rows: 631
+  Columns: 10
+  Size: 0.08 MB
+
+Race 1_COTA_lap_start_time_R1:
+  Path: Race 1\COTA_lap_start_time_R1.csv
+  Rows: 631
+  Columns: 10
+  Size: 0.08 MB
+
+Race 1_COTA_lap_time_R1:
+  Path: Race 1\COTA_lap_time_R1.csv
+  Rows: 631
+  Columns: 10
+  Size: 0.07 MB
+
+Race 1_R1_cota_telemetry_data:
+  Path: Race 1\R1_cota_telemetry_data.csv
+  Rows: 17,754,164
+  Columns: 13
+  Size: 2209.78 MB
+
+Race 2_03_Provisional Results_ Race 2_Anonymized:
+  Path: Race 2\03_Provisional Results_ Race 2_Anonymized.CSV
+  Rows: 31
+  Columns: 1
+  Size: 0.00 MB
+
+Race 2_05_Provisional Results by Class_ Race 2_Anonymized:
+  Path: Race 2\05_Provisional Results by Class_ Race 2_Anonymized.CSV
+  Rows: 31
+  Columns: 1
+  Size: 0.00 MB
+
+Race 2_23_AnalysisEnduranceWithSections_ Race 2_Anonymized:
+  Path: Race 2\23_AnalysisEnduranceWithSections_ Race 2_Anonymized.CSV
+  Rows: 508
+  Columns: 1
+  Size: 0.12 MB
+
+Race 2_26_Weather_ Race 2_Anonymized:
+  Path: Race 2\26_Weather_ Race 2_Anonymized.CSV
+  Rows: 45
+  Columns: 1
+  Size: 0.00 MB
+
+Race 2_99_Best 10 Laps By Driver_ Race 2_Anonymized:
+  Path: Race 2\99_Best 10 Laps By Driver_ Race 2_Anonymized.CSV
+  Rows: 31
+  Columns: 1
+  Size: 0.00 MB
+
+Race 2_COTA_lap_end_time_R2:
+  Path: Race 2\COTA_lap_end_time_R2.csv
+  Rows: 637
+  Columns: 10
+  Size: 0.08 MB
+
+Race 2_COTA_lap_start_time_R2:
+  Path: Race 2\COTA_lap_start_time_R2.csv
+  Rows: 637
+  Columns: 10
+  Size: 0.08 MB
+
+Race 2_COTA_lap_time_R2:
+  Path: Race 2\COTA_lap_time_R2.csv
+  Rows: 637
+  Columns: 10
+  Size: 0.07 MB
+
+Race 2_R2_cota_telemetry_data:
+  Path: Race 2\R2_cota_telemetry_data.csv
+  Rows: 17,223,368
+  Columns: 13
+  Size: 2143.24 MB
+
+
+DATA QUALITY:
+--------------------------------------------------------------------------------
+
+Race 1_00_Results GR Cup Race 1 Official_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 31
+
+Race 1_03_Provisional Results_Race 1_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 31
+
+Race 1_05_Provisional Results by Class_Race 1_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 31
+
+Race 1_23_AnalysisEnduranceWithSections_Race 1_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 486
+
+Race 1_26_Weather_Race 1_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 44
+
+Race 1_99_Best 10 Laps By Driver_Race 1_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 31
+
+Race 1_COTA_lap_end_time_R1:
+  Completeness: 90.00%
+  Missing values: 631 / 6,310
+  Columns with missing data:
+    - expire_at: 631 (100.0%)
+
+Race 1_COTA_lap_start_time_R1:
+  Completeness: 90.00%
+  Missing values: 631 / 6,310
+  Columns with missing data:
+    - expire_at: 631 (100.0%)
+
+Race 1_COTA_lap_time_R1:
+  Completeness: 90.00%
+  Missing values: 631 / 6,310
+  Columns with missing data:
+    - expire_at: 631 (100.0%)
+
+Race 1_R1_cota_telemetry_data:
+  Completeness: 92.31%
+  Missing values: 17,754,164 / 230,804,132
+  Columns with missing data:
+    - expire_at: 17754164 (100.0%)
+
+Race 2_03_Provisional Results_ Race 2_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 31
+
+Race 2_05_Provisional Results by Class_ Race 2_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 31
+
+Race 2_23_AnalysisEnduranceWithSections_ Race 2_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 508
+
+Race 2_26_Weather_ Race 2_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 45
+
+Race 2_99_Best 10 Laps By Driver_ Race 2_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 31
+
+Race 2_COTA_lap_end_time_R2:
+  Completeness: 90.00%
+  Missing values: 637 / 6,370
+  Columns with missing data:
+    - expire_at: 637 (100.0%)
+
+Race 2_COTA_lap_start_time_R2:
+  Completeness: 90.00%
+  Missing values: 637 / 6,370
+  Columns with missing data:
+    - expire_at: 637 (100.0%)
+
+Race 2_COTA_lap_time_R2:
+  Completeness: 90.00%
+  Missing values: 637 / 6,370
+  Columns with missing data:
+    - expire_at: 637 (100.0%)
+
+Race 2_R2_cota_telemetry_data:
+  Completeness: 92.31%
+  Missing values: 17,223,368 / 223,903,784
+  Columns with missing data:
+    - expire_at: 17223368 (100.0%)

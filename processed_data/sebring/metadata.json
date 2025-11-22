@@ -1,0 +1,2887 @@
+{
+  "R1": {
+    "GR86-035-11": [
+      {
+        "lap": 1,
+        "distance_range": 0.0,
+        "data_points": 19440,
+        "file": "R1_vehicleGR86-035-11_lap1.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 2,
+        "distance_range": 0.0,
+        "data_points": 3421,
+        "file": "R1_vehicleGR86-035-11_lap2.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 3,
+        "distance_range": 0.0,
+        "data_points": 3252,
+        "file": "R1_vehicleGR86-035-11_lap3.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 4,
+        "distance_range": 0.0,
+        "data_points": 3268,
+        "file": "R1_vehicleGR86-035-11_lap4.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 5,
+        "distance_range": 0.0,
+        "data_points": 3241,
+        "file": "R1_vehicleGR86-035-11_lap5.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 6,
+        "distance_range": 0.0,
+        "data_points": 3276,
+        "file": "R1_vehicleGR86-035-11_lap6.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 7,
+        "distance_range": 0.0,
+        "data_points": 3294,
+        "file": "R1_vehicleGR86-035-11_lap7.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 8,
+        "distance_range": 0.0,
+        "data_points": 3234,
+        "file": "R1_vehicleGR86-035-11_lap8.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 10,
+        "distance_range": 0.0,
+        "data_points": 3298,
+        "file": "R1_vehicleGR86-035-11_lap10.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 11,
+        "distance_range": 0.0,
+        "data_points": 3320,
+        "file": "R1_vehicleGR86-035-11_lap11.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 12,
+        "distance_range": 0.0,
+        "data_points": 3305,
+        "file": "R1_vehicleGR86-035-11_lap12.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 13,
+        "distance_range": 0.0,
+        "data_points": 3270,
+        "file": "R1_vehicleGR86-035-11_lap13.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 14,
+        "distance_range": 0.0,
+        "data_points": 3286,
+        "file": "R1_vehicleGR86-035-11_lap14.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 15,
+        "distance_range": 0.0,
+        "data_points": 3279,
+        "file": "R1_vehicleGR86-035-11_lap15.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 16,
+        "distance_range": 0.0,
+        "data_points": 3256,
+        "file": "R1_vehicleGR86-035-11_lap16.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 17,
+        "distance_range": 0.0,
+        "data_points": 3323,
+        "file": "R1_vehicleGR86-035-11_lap17.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 18,
+        "distance_range": 0.0,
+        "data_points": 3264,
+        "file": "R1_vehicleGR86-035-11_lap18.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 19,
+        "distance_range": 0.0,
+        "data_points": 3306,
+        "file": "R1_vehicleGR86-035-11_lap19.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 20,
+        "distance_range": 0.0,
+        "data_points": 3406,
+        "file": "R1_vehicleGR86-035-11_lap20.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 21,
+        "distance_range": 0.0,
+        "data_points": 16763,
+        "file": "R1_vehicleGR86-035-11_lap21.csv",
+        "has_distance": false
+      }
+    ],
+    "GR86-016-55": [
+      {
+        "lap": 32768,
+        "distance_range": 0.0,
+        "data_points": 7862,
+        "file": "R1_vehicleGR86-016-55_lap32768.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 1,
+        "distance_range": 0.0,
+        "data_points": 3274,
+        "file": "R1_vehicleGR86-016-55_lap1.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 2,
+        "distance_range": 0.0,
+        "data_points": 3123,
+        "file": "R1_vehicleGR86-016-55_lap2.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 3,
+        "distance_range": 0.0,
+        "data_points": 3102,
+        "file": "R1_vehicleGR86-016-55_lap3.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 4,
+        "distance_range": 0.0,
+        "data_points": 3101,
+        "file": "R1_vehicleGR86-016-55_lap4.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 5,
+        "distance_range": 0.0,
+        "data_points": 3139,
+        "file": "R1_vehicleGR86-016-55_lap5.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 6,
+        "distance_range": 0.0,
+        "data_points": 3134,
+        "file": "R1_vehicleGR86-016-55_lap6.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 7,
+        "distance_range": 0.0,
+        "data_points": 3094,
+        "file": "R1_vehicleGR86-016-55_lap7.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 8,
+        "distance_range": 0.0,
+        "data_points": 3128,
+        "file": "R1_vehicleGR86-016-55_lap8.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 9,
+        "distance_range": 0.0,
+        "data_points": 3126,
+        "file": "R1_vehicleGR86-016-55_lap9.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 10,
+        "distance_range": 0.0,
+        "data_points": 3140,
+        "file": "R1_vehicleGR86-016-55_lap10.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 11,
+        "distance_range": 0.0,
+        "data_points": 3136,
+        "file": "R1_vehicleGR86-016-55_lap11.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 12,
+        "distance_range": 0.0,
+        "data_points": 3169,
+        "file": "R1_vehicleGR86-016-55_lap12.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 13,
+        "distance_range": 0.0,
+        "data_points": 3148,
+        "file": "R1_vehicleGR86-016-55_lap13.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 14,
+        "distance_range": 0.0,
+        "data_points": 3148,
+        "file": "R1_vehicleGR86-016-55_lap14.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 15,
+        "distance_range": 0.0,
+        "data_points": 3071,
+        "file": "R1_vehicleGR86-016-55_lap15.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 16,
+        "distance_range": 0.0,
+        "data_points": 3183,
+        "file": "R1_vehicleGR86-016-55_lap16.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 17,
+        "distance_range": 0.0,
+        "data_points": 3134,
+        "file": "R1_vehicleGR86-016-55_lap17.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 18,
+        "distance_range": 0.0,
+        "data_points": 3108,
+        "file": "R1_vehicleGR86-016-55_lap18.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 19,
+        "distance_range": 0.0,
+        "data_points": 3202,
+        "file": "R1_vehicleGR86-016-55_lap19.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 20,
+        "distance_range": 0.0,
+        "data_points": 4704,
+        "file": "R1_vehicleGR86-016-55_lap20.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 21,
+        "distance_range": 0.0,
+        "data_points": 12531,
+        "file": "R1_vehicleGR86-016-55_lap21.csv",
+        "has_distance": false
+      }
+    ],
+    "GR86-060-031": [
+      {
+        "lap": 32768,
+        "distance_range": 0.0,
+        "data_points": 8199,
+        "file": "R1_vehicleGR86-060-031_lap32768.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 1,
+        "distance_range": 0.0,
+        "data_points": 3273,
+        "file": "R1_vehicleGR86-060-031_lap1.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 4,
+        "distance_range": 0.0,
+        "data_points": 3196,
+        "file": "R1_vehicleGR86-060-031_lap4.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 5,
+        "distance_range": 0.0,
+        "data_points": 3160,
+        "file": "R1_vehicleGR86-060-031_lap5.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 6,
+        "distance_range": 0.0,
+        "data_points": 3123,
+        "file": "R1_vehicleGR86-060-031_lap6.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 8,
+        "distance_range": 0.0,
+        "data_points": 3167,
+        "file": "R1_vehicleGR86-060-031_lap8.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 9,
+        "distance_range": 0.0,
+        "data_points": 3189,
+        "file": "R1_vehicleGR86-060-031_lap9.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 10,
+        "distance_range": 0.0,
+        "data_points": 3152,
+        "file": "R1_vehicleGR86-060-031_lap10.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 11,
+        "distance_range": 0.0,
+        "data_points": 3168,
+        "file": "R1_vehicleGR86-060-031_lap11.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 12,
+        "distance_range": 0.0,
+        "data_points": 3213,
+        "file": "R1_vehicleGR86-060-031_lap12.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 13,
+        "distance_range": 0.0,
+        "data_points": 3210,
+        "file": "R1_vehicleGR86-060-031_lap13.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 14,
+        "distance_range": 0.0,
+        "data_points": 3235,
+        "file": "R1_vehicleGR86-060-031_lap14.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 15,
+        "distance_range": 0.0,
+        "data_points": 3204,
+        "file": "R1_vehicleGR86-060-031_lap15.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 16,
+        "distance_range": 0.0,
+        "data_points": 3213,
+        "file": "R1_vehicleGR86-060-031_lap16.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 17,
+        "distance_range": 0.0,
+        "data_points": 3231,
+        "file": "R1_vehicleGR86-060-031_lap17.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 18,
+        "distance_range": 0.0,
+        "data_points": 3166,
+        "file": "R1_vehicleGR86-060-031_lap18.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 19,
+        "distance_range": 0.0,
+        "data_points": 3298,
+        "file": "R1_vehicleGR86-060-031_lap19.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 20,
+        "distance_range": 0.0,
+        "data_points": 4594,
+        "file": "R1_vehicleGR86-060-031_lap20.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 21,
+        "distance_range": 0.0,
+        "data_points": 12373,
+        "file": "R1_vehicleGR86-060-031_lap21.csv",
+        "has_distance": false
+      }
+    ],
+    "GR86-040-3": [
+      {
+        "lap": 1,
+        "distance_range": 0.0,
+        "data_points": 20085,
+        "file": "R1_vehicleGR86-040-3_lap1.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 2,
+        "distance_range": 0.0,
+        "data_points": 3491,
+        "file": "R1_vehicleGR86-040-3_lap2.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 3,
+        "distance_range": 0.0,
+        "data_points": 3342,
+        "file": "R1_vehicleGR86-040-3_lap3.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 4,
+        "distance_range": 0.0,
+        "data_points": 3328,
+        "file": "R1_vehicleGR86-040-3_lap4.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 5,
+        "distance_range": 0.0,
+        "data_points": 3293,
+        "file": "R1_vehicleGR86-040-3_lap5.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 6,
+        "distance_range": 0.0,
+        "data_points": 3329,
+        "file": "R1_vehicleGR86-040-3_lap6.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 7,
+        "distance_range": 0.0,
+        "data_points": 3320,
+        "file": "R1_vehicleGR86-040-3_lap7.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 8,
+        "distance_range": 0.0,
+        "data_points": 3275,
+        "file": "R1_vehicleGR86-040-3_lap8.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 9,
+        "distance_range": 0.0,
+        "data_points": 3352,
+        "file": "R1_vehicleGR86-040-3_lap9.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 10,
+        "distance_range": 0.0,
+        "data_points": 3273,
+        "file": "R1_vehicleGR86-040-3_lap10.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 11,
+        "distance_range": 0.0,
+        "data_points": 3327,
+        "file": "R1_vehicleGR86-040-3_lap11.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 12,
+        "distance_range": 0.0,
+        "data_points": 3331,
+        "file": "R1_vehicleGR86-040-3_lap12.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 13,
+        "distance_range": 0.0,
+        "data_points": 3312,
+        "file": "R1_vehicleGR86-040-3_lap13.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 14,
+        "distance_range": 0.0,
+        "data_points": 3300,
+        "file": "R1_vehicleGR86-040-3_lap14.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 15,
+        "distance_range": 0.0,
+        "data_points": 3318,
+        "file": "R1_vehicleGR86-040-3_lap15.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 16,
+        "distance_range": 0.0,
+        "data_points": 3311,
+        "file": "R1_vehicleGR86-040-3_lap16.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 17,
+        "distance_range": 0.0,
+        "data_points": 3276,
+        "file": "R1_vehicleGR86-040-3_lap17.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 18,
+        "distance_range": 0.0,
+        "data_points": 3327,
+        "file": "R1_vehicleGR86-040-3_lap18.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 19,
+        "distance_range": 0.0,
+        "data_points": 3326,
+        "file": "R1_vehicleGR86-040-3_lap19.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 20,
+        "distance_range": 0.0,
+        "data_points": 3318,
+        "file": "R1_vehicleGR86-040-3_lap20.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 21,
+        "distance_range": 0.0,
+        "data_points": 16883,
+        "file": "R1_vehicleGR86-040-3_lap21.csv",
+        "has_distance": false
+      }
+    ],
+    "GR86-061-51": [
+      {
+        "lap": 1,
+        "distance_range": 0.0,
+        "data_points": 20137,
+        "file": "R1_vehicleGR86-061-51_lap1.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 2,
+        "distance_range": 0.0,
+        "data_points": 3363,
+        "file": "R1_vehicleGR86-061-51_lap2.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 3,
+        "distance_range": 0.0,
+        "data_points": 3280,
+        "file": "R1_vehicleGR86-061-51_lap3.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 4,
+        "distance_range": 0.0,
+        "data_points": 3253,
+        "file": "R1_vehicleGR86-061-51_lap4.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 5,
+        "distance_range": 0.0,
+        "data_points": 3342,
+        "file": "R1_vehicleGR86-061-51_lap5.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 6,
+        "distance_range": 0.0,
+        "data_points": 3279,
+        "file": "R1_vehicleGR86-061-51_lap6.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 7,
+        "distance_range": 0.0,
+        "data_points": 3232,
+        "file": "R1_vehicleGR86-061-51_lap7.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 8,
+        "distance_range": 0.0,
+        "data_points": 3204,
+        "file": "R1_vehicleGR86-061-51_lap8.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 9,
+        "distance_range": 0.0,
+        "data_points": 3186,
+        "file": "R1_vehicleGR86-061-51_lap9.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 10,
+        "distance_range": 0.0,
+        "data_points": 3250,
+        "file": "R1_vehicleGR86-061-51_lap10.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 11,
+        "distance_range": 0.0,
+        "data_points": 3259,
+        "file": "R1_vehicleGR86-061-51_lap11.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 12,
+        "distance_range": 0.0,
+        "data_points": 3216,
+        "file": "R1_vehicleGR86-061-51_lap12.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 13,
+        "distance_range": 0.0,
+        "data_points": 3242,
+        "file": "R1_vehicleGR86-061-51_lap13.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 14,
+        "distance_range": 0.0,
+        "data_points": 3252,
+        "file": "R1_vehicleGR86-061-51_lap14.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 15,
+        "distance_range": 0.0,
+        "data_points": 3247,
+        "file": "R1_vehicleGR86-061-51_lap15.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 16,
+        "distance_range": 0.0,
+        "data_points": 3263,
+        "file": "R1_vehicleGR86-061-51_lap16.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 17,
+        "distance_range": 0.0,
+        "data_points": 3255,
+        "file": "R1_vehicleGR86-061-51_lap17.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 18,
+        "distance_range": 0.0,
+        "data_points": 3598,
+        "file": "R1_vehicleGR86-061-51_lap18.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 19,
+        "distance_range": 0.0,
+        "data_points": 3305,
+        "file": "R1_vehicleGR86-061-51_lap19.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 20,
+        "distance_range": 0.0,
+        "data_points": 3275,
+        "file": "R1_vehicleGR86-061-51_lap20.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 21,
+        "distance_range": 0.0,
+        "data_points": 3570,
+        "file": "R1_vehicleGR86-061-51_lap21.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 32768,
+        "distance_range": 0.0,
+        "data_points": 7933,
+        "file": "R1_vehicleGR86-061-51_lap32768.csv",
+        "has_distance": false
+      }
+    ],
+    "GR86-051-71": [
+      {
+        "lap": 1,
+        "distance_range": 0.0,
+        "data_points": 19935,
+        "file": "R1_vehicleGR86-051-71_lap1.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 2,
+        "distance_range": 0.0,
+        "data_points": 3411,
+        "file": "R1_vehicleGR86-051-71_lap2.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 3,
+        "distance_range": 0.0,
+        "data_points": 3284,
+        "file": "R1_vehicleGR86-051-71_lap3.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 4,
+        "distance_range": 0.0,
+        "data_points": 3319,
+        "file": "R1_vehicleGR86-051-71_lap4.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 5,
+        "distance_range": 0.0,
+        "data_points": 3329,
+        "file": "R1_vehicleGR86-051-71_lap5.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 6,
+        "distance_range": 0.0,
+        "data_points": 3302,
+        "file": "R1_vehicleGR86-051-71_lap6.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 7,
+        "distance_range": 0.0,
+        "data_points": 3277,
+        "file": "R1_vehicleGR86-051-71_lap7.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 8,
+        "distance_range": 0.0,
+        "data_points": 3260,
+        "file": "R1_vehicleGR86-051-71_lap8.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 9,
+        "distance_range": 0.0,
+        "data_points": 3286,
+        "file": "R1_vehicleGR86-051-71_lap9.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 10,
+        "distance_range": 0.0,
+        "data_points": 3219,
+        "file": "R1_vehicleGR86-051-71_lap10.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 11,
+        "distance_range": 0.0,
+        "data_points": 3294,
+        "file": "R1_vehicleGR86-051-71_lap11.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 12,
+        "distance_range": 0.0,
+        "data_points": 3289,
+        "file": "R1_vehicleGR86-051-71_lap12.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 13,
+        "distance_range": 0.0,
+        "data_points": 3303,
+        "file": "R1_vehicleGR86-051-71_lap13.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 14,
+        "distance_range": 0.0,
+        "data_points": 3250,
+        "file": "R1_vehicleGR86-051-71_lap14.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 15,
+        "distance_range": 0.0,
+        "data_points": 3296,
+        "file": "R1_vehicleGR86-051-71_lap15.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 16,
+        "distance_range": 0.0,
+        "data_points": 3308,
+        "file": "R1_vehicleGR86-051-71_lap16.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 17,
+        "distance_range": 0.0,
+        "data_points": 3216,
+        "file": "R1_vehicleGR86-051-71_lap17.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 18,
+        "distance_range": 0.0,
+        "data_points": 3272,
+        "file": "R1_vehicleGR86-051-71_lap18.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 19,
+        "distance_range": 0.0,
+        "data_points": 3296,
+        "file": "R1_vehicleGR86-051-71_lap19.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 20,
+        "distance_range": 0.0,
+        "data_points": 3273,
+        "file": "R1_vehicleGR86-051-71_lap20.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 21,
+        "distance_range": 0.0,
+        "data_points": 17313,
+        "file": "R1_vehicleGR86-051-71_lap21.csv",
+        "has_distance": false
+      }
+    ],
+    "GR86-026-72": [
+      {
+        "lap": 1,
+        "distance_range": 0.0,
+        "data_points": 19321,
+        "file": "R1_vehicleGR86-026-72_lap1.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 2,
+        "distance_range": 0.0,
+        "data_points": 3345,
+        "file": "R1_vehicleGR86-026-72_lap2.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 3,
+        "distance_range": 0.0,
+        "data_points": 3233,
+        "file": "R1_vehicleGR86-026-72_lap3.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 4,
+        "distance_range": 0.0,
+        "data_points": 3217,
+        "file": "R1_vehicleGR86-026-72_lap4.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 5,
+        "distance_range": 0.0,
+        "data_points": 3236,
+        "file": "R1_vehicleGR86-026-72_lap5.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 6,
+        "distance_range": 0.0,
+        "data_points": 3229,
+        "file": "R1_vehicleGR86-026-72_lap6.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 7,
+        "distance_range": 0.0,
+        "data_points": 3216,
+        "file": "R1_vehicleGR86-026-72_lap7.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 8,
+        "distance_range": 0.0,
+        "data_points": 3252,
+        "file": "R1_vehicleGR86-026-72_lap8.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 9,
+        "distance_range": 0.0,
+        "data_points": 3244,
+        "file": "R1_vehicleGR86-026-72_lap9.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 10,
+        "distance_range": 0.0,
+        "data_points": 3209,
+        "file": "R1_vehicleGR86-026-72_lap10.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 11,
+        "distance_range": 0.0,
+        "data_points": 3245,
+        "file": "R1_vehicleGR86-026-72_lap11.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 12,
+        "distance_range": 0.0,
+        "data_points": 3279,
+        "file": "R1_vehicleGR86-026-72_lap12.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 13,
+        "distance_range": 0.0,
+        "data_points": 3229,
+        "file": "R1_vehicleGR86-026-72_lap13.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 14,
+        "distance_range": 0.0,
+        "data_points": 3260,
+        "file": "R1_vehicleGR86-026-72_lap14.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 15,
+        "distance_range": 0.0,
+        "data_points": 3254,
+        "file": "R1_vehicleGR86-026-72_lap15.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 16,
+        "distance_range": 0.0,
+        "data_points": 3262,
+        "file": "R1_vehicleGR86-026-72_lap16.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 17,
+        "distance_range": 0.0,
+        "data_points": 3211,
+        "file": "R1_vehicleGR86-026-72_lap17.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 18,
+        "distance_range": 0.0,
+        "data_points": 3242,
+        "file": "R1_vehicleGR86-026-72_lap18.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 19,
+        "distance_range": 0.0,
+        "data_points": 3274,
+        "file": "R1_vehicleGR86-026-72_lap19.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 20,
+        "distance_range": 0.0,
+        "data_points": 3295,
+        "file": "R1_vehicleGR86-026-72_lap20.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 21,
+        "distance_range": 0.0,
+        "data_points": 4784,
+        "file": "R1_vehicleGR86-026-72_lap21.csv",
+        "has_distance": false
+      }
+    ],
+    "GR86-025-47": [
+      {
+        "lap": 1,
+        "distance_range": 0.0,
+        "data_points": 5579,
+        "file": "R1_vehicleGR86-025-47_lap1.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 32768,
+        "distance_range": 0.0,
+        "data_points": 15468,
+        "file": "R1_vehicleGR86-025-47_lap32768.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 2,
+        "distance_range": 0.0,
+        "data_points": 3267,
+        "file": "R1_vehicleGR86-025-47_lap2.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 3,
+        "distance_range": 0.0,
+        "data_points": 3349,
+        "file": "R1_vehicleGR86-025-47_lap3.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 4,
+        "distance_range": 0.0,
+        "data_points": 3278,
+        "file": "R1_vehicleGR86-025-47_lap4.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 5,
+        "distance_range": 0.0,
+        "data_points": 3233,
+        "file": "R1_vehicleGR86-025-47_lap5.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 6,
+        "distance_range": 0.0,
+        "data_points": 3883,
+        "file": "R1_vehicleGR86-025-47_lap6.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 7,
+        "distance_range": 0.0,
+        "data_points": 3293,
+        "file": "R1_vehicleGR86-025-47_lap7.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 8,
+        "distance_range": 0.0,
+        "data_points": 3301,
+        "file": "R1_vehicleGR86-025-47_lap8.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 9,
+        "distance_range": 0.0,
+        "data_points": 3280,
+        "file": "R1_vehicleGR86-025-47_lap9.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 10,
+        "distance_range": 0.0,
+        "data_points": 3262,
+        "file": "R1_vehicleGR86-025-47_lap10.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 11,
+        "distance_range": 0.0,
+        "data_points": 3307,
+        "file": "R1_vehicleGR86-025-47_lap11.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 12,
+        "distance_range": 0.0,
+        "data_points": 3257,
+        "file": "R1_vehicleGR86-025-47_lap12.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 13,
+        "distance_range": 0.0,
+        "data_points": 3378,
+        "file": "R1_vehicleGR86-025-47_lap13.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 14,
+        "distance_range": 0.0,
+        "data_points": 3315,
+        "file": "R1_vehicleGR86-025-47_lap14.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 15,
+        "distance_range": 0.0,
+        "data_points": 3323,
+        "file": "R1_vehicleGR86-025-47_lap15.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 16,
+        "distance_range": 0.0,
+        "data_points": 3312,
+        "file": "R1_vehicleGR86-025-47_lap16.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 17,
+        "distance_range": 0.0,
+        "data_points": 3301,
+        "file": "R1_vehicleGR86-025-47_lap17.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 18,
+        "distance_range": 0.0,
+        "data_points": 3337,
+        "file": "R1_vehicleGR86-025-47_lap18.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 19,
+        "distance_range": 0.0,
+        "data_points": 3283,
+        "file": "R1_vehicleGR86-025-47_lap19.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 20,
+        "distance_range": 0.0,
+        "data_points": 3973,
+        "file": "R1_vehicleGR86-025-47_lap20.csv",
+        "has_distance": false
+      }
+    ],
+    "GR86-036-98": [
+      {
+        "lap": 32768,
+        "distance_range": 0.0,
+        "data_points": 20956,
+        "file": "R1_vehicleGR86-036-98_lap32768.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 1,
+        "distance_range": 0.0,
+        "data_points": 3200,
+        "file": "R1_vehicleGR86-036-98_lap1.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 2,
+        "distance_range": 0.0,
+        "data_points": 3128,
+        "file": "R1_vehicleGR86-036-98_lap2.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 3,
+        "distance_range": 0.0,
+        "data_points": 4685,
+        "file": "R1_vehicleGR86-036-98_lap3.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 4,
+        "distance_range": 0.0,
+        "data_points": 5060,
+        "file": "R1_vehicleGR86-036-98_lap4.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 5,
+        "distance_range": 0.0,
+        "data_points": 3201,
+        "file": "R1_vehicleGR86-036-98_lap5.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 6,
+        "distance_range": 0.0,
+        "data_points": 3137,
+        "file": "R1_vehicleGR86-036-98_lap6.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 7,
+        "distance_range": 0.0,
+        "data_points": 3217,
+        "file": "R1_vehicleGR86-036-98_lap7.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 8,
+        "distance_range": 0.0,
+        "data_points": 3154,
+        "file": "R1_vehicleGR86-036-98_lap8.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 9,
+        "distance_range": 0.0,
+        "data_points": 3207,
+        "file": "R1_vehicleGR86-036-98_lap9.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 10,
+        "distance_range": 0.0,
+        "data_points": 3295,
+        "file": "R1_vehicleGR86-036-98_lap10.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 11,
+        "distance_range": 0.0,
+        "data_points": 3095,
+        "file": "R1_vehicleGR86-036-98_lap11.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 12,
+        "distance_range": 0.0,
+        "data_points": 3099,
+        "file": "R1_vehicleGR86-036-98_lap12.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 13,
+        "distance_range": 0.0,
+        "data_points": 3077,
+        "file": "R1_vehicleGR86-036-98_lap13.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 14,
+        "distance_range": 0.0,
+        "data_points": 3068,
+        "file": "R1_vehicleGR86-036-98_lap14.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 15,
+        "distance_range": 0.0,
+        "data_points": 3136,
+        "file": "R1_vehicleGR86-036-98_lap15.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 16,
+        "distance_range": 0.0,
+        "data_points": 3103,
+        "file": "R1_vehicleGR86-036-98_lap16.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 17,
+        "distance_range": 0.0,
+        "data_points": 3175,
+        "file": "R1_vehicleGR86-036-98_lap17.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 18,
+        "distance_range": 0.0,
+        "data_points": 3152,
+        "file": "R1_vehicleGR86-036-98_lap18.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 19,
+        "distance_range": 0.0,
+        "data_points": 3642,
+        "file": "R1_vehicleGR86-036-98_lap19.csv",
+        "has_distance": false
+      }
+    ],
+    "GR86-065-5": [
+      {
+        "lap": 1,
+        "distance_range": 0.0,
+        "data_points": 19994,
+        "file": "R1_vehicleGR86-065-5_lap1.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 2,
+        "distance_range": 0.0,
+        "data_points": 3779,
+        "file": "R1_vehicleGR86-065-5_lap2.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 3,
+        "distance_range": 0.0,
+        "data_points": 5109,
+        "file": "R1_vehicleGR86-065-5_lap3.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 4,
+        "distance_range": 0.0,
+        "data_points": 3103,
+        "file": "R1_vehicleGR86-065-5_lap4.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 5,
+        "distance_range": 0.0,
+        "data_points": 3145,
+        "file": "R1_vehicleGR86-065-5_lap5.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 6,
+        "distance_range": 0.0,
+        "data_points": 3216,
+        "file": "R1_vehicleGR86-065-5_lap6.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 7,
+        "distance_range": 0.0,
+        "data_points": 3553,
+        "file": "R1_vehicleGR86-065-5_lap7.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 8,
+        "distance_range": 0.0,
+        "data_points": 2262,
+        "file": "R1_vehicleGR86-065-5_lap8.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 32768,
+        "distance_range": 0.0,
+        "data_points": 17640,
+        "file": "R1_vehicleGR86-065-5_lap32768.csv",
+        "has_distance": false
+      }
+    ],
+    "GR86-013-80": [
+      {
+        "lap": 1,
+        "distance_range": 0.0,
+        "data_points": 20142,
+        "file": "R1_vehicleGR86-013-80_lap1.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 2,
+        "distance_range": 0.0,
+        "data_points": 3465,
+        "file": "R1_vehicleGR86-013-80_lap2.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 3,
+        "distance_range": 0.0,
+        "data_points": 3317,
+        "file": "R1_vehicleGR86-013-80_lap3.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 4,
+        "distance_range": 0.0,
+        "data_points": 3299,
+        "file": "R1_vehicleGR86-013-80_lap4.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 5,
+        "distance_range": 0.0,
+        "data_points": 3296,
+        "file": "R1_vehicleGR86-013-80_lap5.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 6,
+        "distance_range": 0.0,
+        "data_points": 3267,
+        "file": "R1_vehicleGR86-013-80_lap6.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 7,
+        "distance_range": 0.0,
+        "data_points": 3276,
+        "file": "R1_vehicleGR86-013-80_lap7.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 8,
+        "distance_range": 0.0,
+        "data_points": 3319,
+        "file": "R1_vehicleGR86-013-80_lap8.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 9,
+        "distance_range": 0.0,
+        "data_points": 3375,
+        "file": "R1_vehicleGR86-013-80_lap9.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 10,
+        "distance_range": 0.0,
+        "data_points": 3281,
+        "file": "R1_vehicleGR86-013-80_lap10.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 11,
+        "distance_range": 0.0,
+        "data_points": 3257,
+        "file": "R1_vehicleGR86-013-80_lap11.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 12,
+        "distance_range": 0.0,
+        "data_points": 3288,
+        "file": "R1_vehicleGR86-013-80_lap12.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 13,
+        "distance_range": 0.0,
+        "data_points": 3290,
+        "file": "R1_vehicleGR86-013-80_lap13.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 14,
+        "distance_range": 0.0,
+        "data_points": 3298,
+        "file": "R1_vehicleGR86-013-80_lap14.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 15,
+        "distance_range": 0.0,
+        "data_points": 3297,
+        "file": "R1_vehicleGR86-013-80_lap15.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 16,
+        "distance_range": 0.0,
+        "data_points": 3307,
+        "file": "R1_vehicleGR86-013-80_lap16.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 17,
+        "distance_range": 0.0,
+        "data_points": 3264,
+        "file": "R1_vehicleGR86-013-80_lap17.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 18,
+        "distance_range": 0.0,
+        "data_points": 3287,
+        "file": "R1_vehicleGR86-013-80_lap18.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 19,
+        "distance_range": 0.0,
+        "data_points": 3293,
+        "file": "R1_vehicleGR86-013-80_lap19.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 20,
+        "distance_range": 0.0,
+        "data_points": 3275,
+        "file": "R1_vehicleGR86-013-80_lap20.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 21,
+        "distance_range": 0.0,
+        "data_points": 3952,
+        "file": "R1_vehicleGR86-013-80_lap21.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 32768,
+        "distance_range": 0.0,
+        "data_points": 9047,
+        "file": "R1_vehicleGR86-013-80_lap32768.csv",
+        "has_distance": false
+      }
+    ],
+    "GR86-022-13": [
+      {
+        "lap": 1,
+        "distance_range": 0.0,
+        "data_points": 19445,
+        "file": "R1_vehicleGR86-022-13_lap1.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 2,
+        "distance_range": 0.0,
+        "data_points": 3174,
+        "file": "R1_vehicleGR86-022-13_lap2.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 3,
+        "distance_range": 0.0,
+        "data_points": 3098,
+        "file": "R1_vehicleGR86-022-13_lap3.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 4,
+        "distance_range": 0.0,
+        "data_points": 3046,
+        "file": "R1_vehicleGR86-022-13_lap4.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 5,
+        "distance_range": 0.0,
+        "data_points": 3040,
+        "file": "R1_vehicleGR86-022-13_lap5.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 6,
+        "distance_range": 0.0,
+        "data_points": 3013,
+        "file": "R1_vehicleGR86-022-13_lap6.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 7,
+        "distance_range": 0.0,
+        "data_points": 3050,
+        "file": "R1_vehicleGR86-022-13_lap7.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 8,
+        "distance_range": 0.0,
+        "data_points": 3053,
+        "file": "R1_vehicleGR86-022-13_lap8.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 9,
+        "distance_range": 0.0,
+        "data_points": 3100,
+        "file": "R1_vehicleGR86-022-13_lap9.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 10,
+        "distance_range": 0.0,
+        "data_points": 3043,
+        "file": "R1_vehicleGR86-022-13_lap10.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 11,
+        "distance_range": 0.0,
+        "data_points": 3042,
+        "file": "R1_vehicleGR86-022-13_lap11.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 12,
+        "distance_range": 0.0,
+        "data_points": 3098,
+        "file": "R1_vehicleGR86-022-13_lap12.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 13,
+        "distance_range": 0.0,
+        "data_points": 3089,
+        "file": "R1_vehicleGR86-022-13_lap13.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 14,
+        "distance_range": 0.0,
+        "data_points": 3086,
+        "file": "R1_vehicleGR86-022-13_lap14.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 15,
+        "distance_range": 0.0,
+        "data_points": 3118,
+        "file": "R1_vehicleGR86-022-13_lap15.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 16,
+        "distance_range": 0.0,
+        "data_points": 3124,
+        "file": "R1_vehicleGR86-022-13_lap16.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 17,
+        "distance_range": 0.0,
+        "data_points": 3078,
+        "file": "R1_vehicleGR86-022-13_lap17.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 18,
+        "distance_range": 0.0,
+        "data_points": 3125,
+        "file": "R1_vehicleGR86-022-13_lap18.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 19,
+        "distance_range": 0.0,
+        "data_points": 3150,
+        "file": "R1_vehicleGR86-022-13_lap19.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 20,
+        "distance_range": 0.0,
+        "data_points": 3125,
+        "file": "R1_vehicleGR86-022-13_lap20.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 21,
+        "distance_range": 0.0,
+        "data_points": 17590,
+        "file": "R1_vehicleGR86-022-13_lap21.csv",
+        "has_distance": false
+      }
+    ],
+    "GR86-006-7": [
+      {
+        "lap": 1,
+        "distance_range": 0.0,
+        "data_points": 6860,
+        "file": "R1_vehicleGR86-006-7_lap1.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 32768,
+        "distance_range": 0.0,
+        "data_points": 10183,
+        "file": "R1_vehicleGR86-006-7_lap32768.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 2,
+        "distance_range": 0.0,
+        "data_points": 3088,
+        "file": "R1_vehicleGR86-006-7_lap2.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 3,
+        "distance_range": 0.0,
+        "data_points": 3020,
+        "file": "R1_vehicleGR86-006-7_lap3.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 4,
+        "distance_range": 0.0,
+        "data_points": 3102,
+        "file": "R1_vehicleGR86-006-7_lap4.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 5,
+        "distance_range": 0.0,
+        "data_points": 3108,
+        "file": "R1_vehicleGR86-006-7_lap5.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 6,
+        "distance_range": 0.0,
+        "data_points": 3129,
+        "file": "R1_vehicleGR86-006-7_lap6.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 7,
+        "distance_range": 0.0,
+        "data_points": 3074,
+        "file": "R1_vehicleGR86-006-7_lap7.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 8,
+        "distance_range": 0.0,
+        "data_points": 3109,
+        "file": "R1_vehicleGR86-006-7_lap8.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 9,
+        "distance_range": 0.0,
+        "data_points": 3070,
+        "file": "R1_vehicleGR86-006-7_lap9.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 10,
+        "distance_range": 0.0,
+        "data_points": 3002,
+        "file": "R1_vehicleGR86-006-7_lap10.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 11,
+        "distance_range": 0.0,
+        "data_points": 3075,
+        "file": "R1_vehicleGR86-006-7_lap11.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 12,
+        "distance_range": 0.0,
+        "data_points": 3127,
+        "file": "R1_vehicleGR86-006-7_lap12.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 13,
+        "distance_range": 0.0,
+        "data_points": 3111,
+        "file": "R1_vehicleGR86-006-7_lap13.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 14,
+        "distance_range": 0.0,
+        "data_points": 3114,
+        "file": "R1_vehicleGR86-006-7_lap14.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 15,
+        "distance_range": 0.0,
+        "data_points": 3108,
+        "file": "R1_vehicleGR86-006-7_lap15.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 16,
+        "distance_range": 0.0,
+        "data_points": 3136,
+        "file": "R1_vehicleGR86-006-7_lap16.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 17,
+        "distance_range": 0.0,
+        "data_points": 3082,
+        "file": "R1_vehicleGR86-006-7_lap17.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 18,
+        "distance_range": 0.0,
+        "data_points": 3123,
+        "file": "R1_vehicleGR86-006-7_lap18.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 19,
+        "distance_range": 0.0,
+        "data_points": 3113,
+        "file": "R1_vehicleGR86-006-7_lap19.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 20,
+        "distance_range": 0.0,
+        "data_points": 4701,
+        "file": "R1_vehicleGR86-006-7_lap20.csv",
+        "has_distance": false
+      }
+    ],
+    "GR86-033-46": [
+      {
+        "lap": 1,
+        "distance_range": 0.0,
+        "data_points": 19809,
+        "file": "R1_vehicleGR86-033-46_lap1.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 2,
+        "distance_range": 0.0,
+        "data_points": 3263,
+        "file": "R1_vehicleGR86-033-46_lap2.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 3,
+        "distance_range": 0.0,
+        "data_points": 3071,
+        "file": "R1_vehicleGR86-033-46_lap3.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 4,
+        "distance_range": 0.0,
+        "data_points": 3101,
+        "file": "R1_vehicleGR86-033-46_lap4.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 5,
+        "distance_range": 0.0,
+        "data_points": 3133,
+        "file": "R1_vehicleGR86-033-46_lap5.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 6,
+        "distance_range": 0.0,
+        "data_points": 3166,
+        "file": "R1_vehicleGR86-033-46_lap6.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 7,
+        "distance_range": 0.0,
+        "data_points": 3189,
+        "file": "R1_vehicleGR86-033-46_lap7.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 8,
+        "distance_range": 0.0,
+        "data_points": 3246,
+        "file": "R1_vehicleGR86-033-46_lap8.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 9,
+        "distance_range": 0.0,
+        "data_points": 3128,
+        "file": "R1_vehicleGR86-033-46_lap9.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 10,
+        "distance_range": 0.0,
+        "data_points": 3189,
+        "file": "R1_vehicleGR86-033-46_lap10.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 11,
+        "distance_range": 0.0,
+        "data_points": 3236,
+        "file": "R1_vehicleGR86-033-46_lap11.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 12,
+        "distance_range": 0.0,
+        "data_points": 3237,
+        "file": "R1_vehicleGR86-033-46_lap12.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 13,
+        "distance_range": 0.0,
+        "data_points": 3198,
+        "file": "R1_vehicleGR86-033-46_lap13.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 14,
+        "distance_range": 0.0,
+        "data_points": 3130,
+        "file": "R1_vehicleGR86-033-46_lap14.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 15,
+        "distance_range": 0.0,
+        "data_points": 3074,
+        "file": "R1_vehicleGR86-033-46_lap15.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 16,
+        "distance_range": 0.0,
+        "data_points": 3209,
+        "file": "R1_vehicleGR86-033-46_lap16.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 17,
+        "distance_range": 0.0,
+        "data_points": 3200,
+        "file": "R1_vehicleGR86-033-46_lap17.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 18,
+        "distance_range": 0.0,
+        "data_points": 3277,
+        "file": "R1_vehicleGR86-033-46_lap18.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 19,
+        "distance_range": 0.0,
+        "data_points": 3107,
+        "file": "R1_vehicleGR86-033-46_lap19.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 20,
+        "distance_range": 0.0,
+        "data_points": 3265,
+        "file": "R1_vehicleGR86-033-46_lap20.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 21,
+        "distance_range": 0.0,
+        "data_points": 17951,
+        "file": "R1_vehicleGR86-033-46_lap21.csv",
+        "has_distance": false
+      }
+    ],
+    "GR86-047-21": [
+      {
+        "lap": 1,
+        "distance_range": 0.0,
+        "data_points": 20203,
+        "file": "R1_vehicleGR86-047-21_lap1.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 2,
+        "distance_range": 0.0,
+        "data_points": 3383,
+        "file": "R1_vehicleGR86-047-21_lap2.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 3,
+        "distance_range": 0.0,
+        "data_points": 3271,
+        "file": "R1_vehicleGR86-047-21_lap3.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 4,
+        "distance_range": 0.0,
+        "data_points": 3313,
+        "file": "R1_vehicleGR86-047-21_lap4.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 5,
+        "distance_range": 0.0,
+        "data_points": 3237,
+        "file": "R1_vehicleGR86-047-21_lap5.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 6,
+        "distance_range": 0.0,
+        "data_points": 3303,
+        "file": "R1_vehicleGR86-047-21_lap6.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 7,
+        "distance_range": 0.0,
+        "data_points": 3252,
+        "file": "R1_vehicleGR86-047-21_lap7.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 8,
+        "distance_range": 0.0,
+        "data_points": 3269,
+        "file": "R1_vehicleGR86-047-21_lap8.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 9,
+        "distance_range": 0.0,
+        "data_points": 3247,
+        "file": "R1_vehicleGR86-047-21_lap9.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 10,
+        "distance_range": 0.0,
+        "data_points": 3267,
+        "file": "R1_vehicleGR86-047-21_lap10.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 11,
+        "distance_range": 0.0,
+        "data_points": 3277,
+        "file": "R1_vehicleGR86-047-21_lap11.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 12,
+        "distance_range": 0.0,
+        "data_points": 3258,
+        "file": "R1_vehicleGR86-047-21_lap12.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 13,
+        "distance_range": 0.0,
+        "data_points": 3221,
+        "file": "R1_vehicleGR86-047-21_lap13.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 14,
+        "distance_range": 0.0,
+        "data_points": 3284,
+        "file": "R1_vehicleGR86-047-21_lap14.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 15,
+        "distance_range": 0.0,
+        "data_points": 3291,
+        "file": "R1_vehicleGR86-047-21_lap15.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 16,
+        "distance_range": 0.0,
+        "data_points": 3252,
+        "file": "R1_vehicleGR86-047-21_lap16.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 17,
+        "distance_range": 0.0,
+        "data_points": 3301,
+        "file": "R1_vehicleGR86-047-21_lap17.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 18,
+        "distance_range": 0.0,
+        "data_points": 3234,
+        "file": "R1_vehicleGR86-047-21_lap18.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 19,
+        "distance_range": 0.0,
+        "data_points": 3279,
+        "file": "R1_vehicleGR86-047-21_lap19.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 20,
+        "distance_range": 0.0,
+        "data_points": 3274,
+        "file": "R1_vehicleGR86-047-21_lap20.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 21,
+        "distance_range": 0.0,
+        "data_points": 10847,
+        "file": "R1_vehicleGR86-047-21_lap21.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 32768,
+        "distance_range": 0.0,
+        "data_points": 2325,
+        "file": "R1_vehicleGR86-047-21_lap32768.csv",
+        "has_distance": false
+      }
+    ],
+    "GR86-024-41": [
+      {
+        "lap": 1,
+        "distance_range": 0.0,
+        "data_points": 19785,
+        "file": "R1_vehicleGR86-024-41_lap1.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 2,
+        "distance_range": 0.0,
+        "data_points": 3309,
+        "file": "R1_vehicleGR86-024-41_lap2.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 3,
+        "distance_range": 0.0,
+        "data_points": 3233,
+        "file": "R1_vehicleGR86-024-41_lap3.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 4,
+        "distance_range": 0.0,
+        "data_points": 3219,
+        "file": "R1_vehicleGR86-024-41_lap4.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 5,
+        "distance_range": 0.0,
+        "data_points": 3179,
+        "file": "R1_vehicleGR86-024-41_lap5.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 6,
+        "distance_range": 0.0,
+        "data_points": 3230,
+        "file": "R1_vehicleGR86-024-41_lap6.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 7,
+        "distance_range": 0.0,
+        "data_points": 3247,
+        "file": "R1_vehicleGR86-024-41_lap7.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 8,
+        "distance_range": 0.0,
+        "data_points": 3183,
+        "file": "R1_vehicleGR86-024-41_lap8.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 9,
+        "distance_range": 0.0,
+        "data_points": 3219,
+        "file": "R1_vehicleGR86-024-41_lap9.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 10,
+        "distance_range": 0.0,
+        "data_points": 3202,
+        "file": "R1_vehicleGR86-024-41_lap10.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 11,
+        "distance_range": 0.0,
+        "data_points": 3176,
+        "file": "R1_vehicleGR86-024-41_lap11.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 12,
+        "distance_range": 0.0,
+        "data_points": 3128,
+        "file": "R1_vehicleGR86-024-41_lap12.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 13,
+        "distance_range": 0.0,
+        "data_points": 3205,
+        "file": "R1_vehicleGR86-024-41_lap13.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 14,
+        "distance_range": 0.0,
+        "data_points": 3194,
+        "file": "R1_vehicleGR86-024-41_lap14.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 15,
+        "distance_range": 0.0,
+        "data_points": 3191,
+        "file": "R1_vehicleGR86-024-41_lap15.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 16,
+        "distance_range": 0.0,
+        "data_points": 3142,
+        "file": "R1_vehicleGR86-024-41_lap16.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 17,
+        "distance_range": 0.0,
+        "data_points": 4515,
+        "file": "R1_vehicleGR86-024-41_lap17.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 18,
+        "distance_range": 0.0,
+        "data_points": 3724,
+        "file": "R1_vehicleGR86-024-41_lap18.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 19,
+        "distance_range": 0.0,
+        "data_points": 3343,
+        "file": "R1_vehicleGR86-024-41_lap19.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 20,
+        "distance_range": 0.0,
+        "data_points": 3203,
+        "file": "R1_vehicleGR86-024-41_lap20.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 21,
+        "distance_range": 0.0,
+        "data_points": 15255,
+        "file": "R1_vehicleGR86-024-41_lap21.csv",
+        "has_distance": false
+      }
+    ],
+    "GR86-063-113": [
+      {
+        "lap": 1,
+        "distance_range": 0.0,
+        "data_points": 19254,
+        "file": "R1_vehicleGR86-063-113_lap1.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 2,
+        "distance_range": 0.0,
+        "data_points": 3464,
+        "file": "R1_vehicleGR86-063-113_lap2.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 3,
+        "distance_range": 0.0,
+        "data_points": 3273,
+        "file": "R1_vehicleGR86-063-113_lap3.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 4,
+        "distance_range": 0.0,
+        "data_points": 3275,
+        "file": "R1_vehicleGR86-063-113_lap4.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 5,
+        "distance_range": 0.0,
+        "data_points": 3283,
+        "file": "R1_vehicleGR86-063-113_lap5.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 6,
+        "distance_range": 0.0,
+        "data_points": 3312,
+        "file": "R1_vehicleGR86-063-113_lap6.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 7,
+        "distance_range": 0.0,
+        "data_points": 3293,
+        "file": "R1_vehicleGR86-063-113_lap7.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 8,
+        "distance_range": 0.0,
+        "data_points": 3241,
+        "file": "R1_vehicleGR86-063-113_lap8.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 9,
+        "distance_range": 0.0,
+        "data_points": 3266,
+        "file": "R1_vehicleGR86-063-113_lap9.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 10,
+        "distance_range": 0.0,
+        "data_points": 3237,
+        "file": "R1_vehicleGR86-063-113_lap10.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 11,
+        "distance_range": 0.0,
+        "data_points": 3254,
+        "file": "R1_vehicleGR86-063-113_lap11.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 12,
+        "distance_range": 0.0,
+        "data_points": 3242,
+        "file": "R1_vehicleGR86-063-113_lap12.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 13,
+        "distance_range": 0.0,
+        "data_points": 3264,
+        "file": "R1_vehicleGR86-063-113_lap13.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 14,
+        "distance_range": 0.0,
+        "data_points": 3272,
+        "file": "R1_vehicleGR86-063-113_lap14.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 15,
+        "distance_range": 0.0,
+        "data_points": 3251,
+        "file": "R1_vehicleGR86-063-113_lap15.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 16,
+        "distance_range": 0.0,
+        "data_points": 3261,
+        "file": "R1_vehicleGR86-063-113_lap16.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 17,
+        "distance_range": 0.0,
+        "data_points": 3158,
+        "file": "R1_vehicleGR86-063-113_lap17.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 18,
+        "distance_range": 0.0,
+        "data_points": 3272,
+        "file": "R1_vehicleGR86-063-113_lap18.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 19,
+        "distance_range": 0.0,
+        "data_points": 3244,
+        "file": "R1_vehicleGR86-063-113_lap19.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 20,
+        "distance_range": 0.0,
+        "data_points": 3282,
+        "file": "R1_vehicleGR86-063-113_lap20.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 21,
+        "distance_range": 0.0,
+        "data_points": 17371,
+        "file": "R1_vehicleGR86-063-113_lap21.csv",
+        "has_distance": false
+      }
+    ],
+    "GR86-049-88": [
+      {
+        "lap": 1,
+        "distance_range": 0.0,
+        "data_points": 19444,
+        "file": "R1_vehicleGR86-049-88_lap1.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 2,
+        "distance_range": 0.0,
+        "data_points": 3209,
+        "file": "R1_vehicleGR86-049-88_lap2.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 3,
+        "distance_range": 0.0,
+        "data_points": 3146,
+        "file": "R1_vehicleGR86-049-88_lap3.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 4,
+        "distance_range": 0.0,
+        "data_points": 3066,
+        "file": "R1_vehicleGR86-049-88_lap4.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 5,
+        "distance_range": 0.0,
+        "data_points": 3103,
+        "file": "R1_vehicleGR86-049-88_lap5.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 6,
+        "distance_range": 0.0,
+        "data_points": 3123,
+        "file": "R1_vehicleGR86-049-88_lap6.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 7,
+        "distance_range": 0.0,
+        "data_points": 3139,
+        "file": "R1_vehicleGR86-049-88_lap7.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 8,
+        "distance_range": 0.0,
+        "data_points": 3129,
+        "file": "R1_vehicleGR86-049-88_lap8.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 9,
+        "distance_range": 0.0,
+        "data_points": 3141,
+        "file": "R1_vehicleGR86-049-88_lap9.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 10,
+        "distance_range": 0.0,
+        "data_points": 3151,
+        "file": "R1_vehicleGR86-049-88_lap10.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 11,
+        "distance_range": 0.0,
+        "data_points": 3318,
+        "file": "R1_vehicleGR86-049-88_lap11.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 12,
+        "distance_range": 0.0,
+        "data_points": 3223,
+        "file": "R1_vehicleGR86-049-88_lap12.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 13,
+        "distance_range": 0.0,
+        "data_points": 3252,
+        "file": "R1_vehicleGR86-049-88_lap13.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 14,
+        "distance_range": 0.0,
+        "data_points": 3233,
+        "file": "R1_vehicleGR86-049-88_lap14.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 15,
+        "distance_range": 0.0,
+        "data_points": 3233,
+        "file": "R1_vehicleGR86-049-88_lap15.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 16,
+        "distance_range": 0.0,
+        "data_points": 3165,
+        "file": "R1_vehicleGR86-049-88_lap16.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 17,
+        "distance_range": 0.0,
+        "data_points": 3214,
+        "file": "R1_vehicleGR86-049-88_lap17.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 18,
+        "distance_range": 0.0,
+        "data_points": 3233,
+        "file": "R1_vehicleGR86-049-88_lap18.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 19,
+        "distance_range": 0.0,
+        "data_points": 3251,
+        "file": "R1_vehicleGR86-049-88_lap19.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 20,
+        "distance_range": 0.0,
+        "data_points": 3204,
+        "file": "R1_vehicleGR86-049-88_lap20.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 21,
+        "distance_range": 0.0,
+        "data_points": 16492,
+        "file": "R1_vehicleGR86-049-88_lap21.csv",
+        "has_distance": false
+      }
+    ],
+    "GR86-015-31": [
+      {
+        "lap": 1,
+        "distance_range": 0.0,
+        "data_points": 17731,
+        "file": "R1_vehicleGR86-015-31_lap1.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 2,
+        "distance_range": 0.0,
+        "data_points": 3311,
+        "file": "R1_vehicleGR86-015-31_lap2.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 3,
+        "distance_range": 0.0,
+        "data_points": 3141,
+        "file": "R1_vehicleGR86-015-31_lap3.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 4,
+        "distance_range": 0.0,
+        "data_points": 3189,
+        "file": "R1_vehicleGR86-015-31_lap4.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 5,
+        "distance_range": 0.0,
+        "data_points": 3124,
+        "file": "R1_vehicleGR86-015-31_lap5.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 6,
+        "distance_range": 0.0,
+        "data_points": 3202,
+        "file": "R1_vehicleGR86-015-31_lap6.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 7,
+        "distance_range": 0.0,
+        "data_points": 3189,
+        "file": "R1_vehicleGR86-015-31_lap7.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 8,
+        "distance_range": 0.0,
+        "data_points": 3161,
+        "file": "R1_vehicleGR86-015-31_lap8.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 9,
+        "distance_range": 0.0,
+        "data_points": 3145,
+        "file": "R1_vehicleGR86-015-31_lap9.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 10,
+        "distance_range": 0.0,
+        "data_points": 3146,
+        "file": "R1_vehicleGR86-015-31_lap10.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 11,
+        "distance_range": 0.0,
+        "data_points": 3090,
+        "file": "R1_vehicleGR86-015-31_lap11.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 12,
+        "distance_range": 0.0,
+        "data_points": 3119,
+        "file": "R1_vehicleGR86-015-31_lap12.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 13,
+        "distance_range": 0.0,
+        "data_points": 3139,
+        "file": "R1_vehicleGR86-015-31_lap13.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 14,
+        "distance_range": 0.0,
+        "data_points": 3187,
+        "file": "R1_vehicleGR86-015-31_lap14.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 15,
+        "distance_range": 0.0,
+        "data_points": 3198,
+        "file": "R1_vehicleGR86-015-31_lap15.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 16,
+        "distance_range": 0.0,
+        "data_points": 3139,
+        "file": "R1_vehicleGR86-015-31_lap16.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 17,
+        "distance_range": 0.0,
+        "data_points": 3582,
+        "file": "R1_vehicleGR86-015-31_lap17.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 18,
+        "distance_range": 0.0,
+        "data_points": 980,
+        "file": "R1_vehicleGR86-015-31_lap18.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 32768,
+        "distance_range": 0.0,
+        "data_points": 335,
+        "file": "R1_vehicleGR86-015-31_lap32768.csv",
+        "has_distance": false
+      }
+    ],
+    "GR86-010-16": [
+      {
+        "lap": 1,
+        "distance_range": 0.0,
+        "data_points": 6804,
+        "file": "R1_vehicleGR86-010-16_lap1.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 32768,
+        "distance_range": 0.0,
+        "data_points": 9566,
+        "file": "R1_vehicleGR86-010-16_lap32768.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 2,
+        "distance_range": 0.0,
+        "data_points": 3154,
+        "file": "R1_vehicleGR86-010-16_lap2.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 3,
+        "distance_range": 0.0,
+        "data_points": 3564,
+        "file": "R1_vehicleGR86-010-16_lap3.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 4,
+        "distance_range": 0.0,
+        "data_points": 2868,
+        "file": "R1_vehicleGR86-010-16_lap4.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 5,
+        "distance_range": 0.0,
+        "data_points": 3260,
+        "file": "R1_vehicleGR86-010-16_lap5.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 6,
+        "distance_range": 0.0,
+        "data_points": 3205,
+        "file": "R1_vehicleGR86-010-16_lap6.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 7,
+        "distance_range": 0.0,
+        "data_points": 3219,
+        "file": "R1_vehicleGR86-010-16_lap7.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 8,
+        "distance_range": 0.0,
+        "data_points": 3204,
+        "file": "R1_vehicleGR86-010-16_lap8.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 9,
+        "distance_range": 0.0,
+        "data_points": 3168,
+        "file": "R1_vehicleGR86-010-16_lap9.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 10,
+        "distance_range": 0.0,
+        "data_points": 3251,
+        "file": "R1_vehicleGR86-010-16_lap10.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 11,
+        "distance_range": 0.0,
+        "data_points": 3164,
+        "file": "R1_vehicleGR86-010-16_lap11.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 12,
+        "distance_range": 0.0,
+        "data_points": 3267,
+        "file": "R1_vehicleGR86-010-16_lap12.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 13,
+        "distance_range": 0.0,
+        "data_points": 3172,
+        "file": "R1_vehicleGR86-010-16_lap13.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 14,
+        "distance_range": 0.0,
+        "data_points": 3237,
+        "file": "R1_vehicleGR86-010-16_lap14.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 15,
+        "distance_range": 0.0,
+        "data_points": 3251,
+        "file": "R1_vehicleGR86-010-16_lap15.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 16,
+        "distance_range": 0.0,
+        "data_points": 3258,
+        "file": "R1_vehicleGR86-010-16_lap16.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 17,
+        "distance_range": 0.0,
+        "data_points": 3258,
+        "file": "R1_vehicleGR86-010-16_lap17.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 18,
+        "distance_range": 0.0,
+        "data_points": 3264,
+        "file": "R1_vehicleGR86-010-16_lap18.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 19,
+        "distance_range": 0.0,
+        "data_points": 3278,
+        "file": "R1_vehicleGR86-010-16_lap19.csv",
+        "has_distance": false
+      },
+      {
+        "lap": 20,
+        "distance_range": 0.0,
+        "data_points": 4958,
+        "file": "R1_vehicleGR86-010-16_lap20.csv",
+        "has_distance": false
+      }
+    ]
+  },
+  "R2": {}
+}
