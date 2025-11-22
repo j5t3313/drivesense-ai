@@ -1,0 +1,247 @@
+
+================================================================================
+EDA SUMMARY REPORT: ROAD-AMERICA
+================================================================================
+
+DATASETS OVERVIEW:
+--------------------------------------------------------------------------------
+
+Road America_Race 1_03_Provisional Results_Race 1_Anonymized:
+  Path: Road America\Race 1\03_Provisional Results_Race 1_Anonymized.CSV
+  Rows: 28
+  Columns: 1
+  Size: 0.00 MB
+
+Road America_Race 1_03_Results GR Cup Race 1 Official1_Anonymized:
+  Path: Road America\Race 1\03_Results GR Cup Race 1 Official1_Anonymized.CSV
+  Rows: 28
+  Columns: 1
+  Size: 0.00 MB
+
+Road America_Race 1_05_Provisional Results by Class_Race 1_Anonymized:
+  Path: Road America\Race 1\05_Provisional Results by Class_Race 1_Anonymized.CSV
+  Rows: 28
+  Columns: 1
+  Size: 0.00 MB
+
+Road America_Race 1_05_Results by Class GR Cup Race 1 Official_Anonymized:
+  Path: Road America\Race 1\05_Results by Class GR Cup Race 1 Official_Anonymized.CSV
+  Rows: 28
+  Columns: 1
+  Size: 0.00 MB
+
+Road America_Race 1_23_AnalysisEnduranceWithSections_Race 1_Anonymized:
+  Path: Road America\Race 1\23_AnalysisEnduranceWithSections_Race 1_Anonymized.CSV
+  Rows: 415
+  Columns: 1
+  Size: 0.10 MB
+
+Road America_Race 1_26_Weather_Race 1_Anonymized:
+  Path: Road America\Race 1\26_Weather_Race 1_Anonymized.CSV
+  Rows: 43
+  Columns: 1
+  Size: 0.00 MB
+
+Road America_Race 1_99_Best 10 Laps By Driver_Race 1_Anonymized:
+  Path: Road America\Race 1\99_Best 10 Laps By Driver_Race 1_Anonymized.CSV
+  Rows: 28
+  Columns: 1
+  Size: 0.00 MB
+
+Road America_Race 1_R1_road_america_telemetry_data:
+  Path: Road America\Race 1\R1_road_america_telemetry_data.csv
+  Rows: 8,981,264
+  Columns: 13
+  Size: 1113.85 MB
+
+Road America_Race 1_road_america_lap_end_R1:
+  Path: Road America\Race 1\road_america_lap_end_R1.csv
+  Rows: 221
+  Columns: 10
+  Size: 0.03 MB
+
+Road America_Race 1_road_america_lap_start_R1:
+  Path: Road America\Race 1\road_america_lap_start_R1.csv
+  Rows: 221
+  Columns: 10
+  Size: 0.03 MB
+
+Road America_Race 1_road_america_lap_time_R1:
+  Path: Road America\Race 1\road_america_lap_time_R1.csv
+  Rows: 221
+  Columns: 10
+  Size: 0.02 MB
+
+Road America_Race 2_03_Provisional Results_Race 2_Anonymized:
+  Path: Road America\Race 2\03_Provisional Results_Race 2_Anonymized.CSV
+  Rows: 28
+  Columns: 1
+  Size: 0.00 MB
+
+Road America_Race 2_03_Results GR Cup Race 2 Official_Anonymized:
+  Path: Road America\Race 2\03_Results GR Cup Race 2 Official_Anonymized.CSV
+  Rows: 28
+  Columns: 1
+  Size: 0.00 MB
+
+Road America_Race 2_05_Provisional Results by Class_Race 2_Anonymized:
+  Path: Road America\Race 2\05_Provisional Results by Class_Race 2_Anonymized.CSV
+  Rows: 28
+  Columns: 1
+  Size: 0.00 MB
+
+Road America_Race 2_05_Results by Class GR Cup Race 2 Official_Anonymized:
+  Path: Road America\Race 2\05_Results by Class GR Cup Race 2 Official_Anonymized.CSV
+  Rows: 28
+  Columns: 1
+  Size: 0.00 MB
+
+Road America_Race 2_23_AnalysisEnduranceWithSections_Race 2_Anonymized:
+  Path: Road America\Race 2\23_AnalysisEnduranceWithSections_Race 2_Anonymized.CSV
+  Rows: 430
+  Columns: 1
+  Size: 0.10 MB
+
+Road America_Race 2_26_Weather_Race 2_Anonymized:
+  Path: Road America\Race 2\26_Weather_Race 2_Anonymized.CSV
+  Rows: 45
+  Columns: 1
+  Size: 0.00 MB
+
+Road America_Race 2_99_Best 10 Laps By Driver_Race 2_Anonymized:
+  Path: Road America\Race 2\99_Best 10 Laps By Driver_Race 2_Anonymized.CSV
+  Rows: 27
+  Columns: 1
+  Size: 0.00 MB
+
+Road America_Race 2_R2_road_america_telemetry_data:
+  Path: Road America\Race 2\R2_road_america_telemetry_data.csv
+  Rows: 11,276,849
+  Columns: 13
+  Size: 1402.22 MB
+
+Road America_Race 2_road_america_lap_end_R2:
+  Path: Road America\Race 2\road_america_lap_end_R2.csv
+  Rows: 426
+  Columns: 10
+  Size: 0.05 MB
+
+Road America_Race 2_road_america_lap_start_R2:
+  Path: Road America\Race 2\road_america_lap_start_R2.csv
+  Rows: 426
+  Columns: 10
+  Size: 0.05 MB
+
+Road America_Race 2_road_america_lap_time_R2:
+  Path: Road America\Race 2\road_america_lap_time_R2.csv
+  Rows: 426
+  Columns: 10
+  Size: 0.04 MB
+
+
+DATA QUALITY:
+--------------------------------------------------------------------------------
+
+Road America_Race 1_03_Provisional Results_Race 1_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 28
+
+Road America_Race 1_03_Results GR Cup Race 1 Official1_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 28
+
+Road America_Race 1_05_Provisional Results by Class_Race 1_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 28
+
+Road America_Race 1_05_Results by Class GR Cup Race 1 Official_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 28
+
+Road America_Race 1_23_AnalysisEnduranceWithSections_Race 1_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 415
+
+Road America_Race 1_26_Weather_Race 1_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 43
+
+Road America_Race 1_99_Best 10 Laps By Driver_Race 1_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 28
+
+Road America_Race 1_R1_road_america_telemetry_data:
+  Completeness: 92.31%
+  Missing values: 8,981,264 / 116,756,432
+  Columns with missing data:
+    - expire_at: 8981264 (100.0%)
+
+Road America_Race 1_road_america_lap_end_R1:
+  Completeness: 90.00%
+  Missing values: 221 / 2,210
+  Columns with missing data:
+    - expire_at: 221 (100.0%)
+
+Road America_Race 1_road_america_lap_start_R1:
+  Completeness: 90.00%
+  Missing values: 221 / 2,210
+  Columns with missing data:
+    - expire_at: 221 (100.0%)
+
+Road America_Race 1_road_america_lap_time_R1:
+  Completeness: 90.00%
+  Missing values: 221 / 2,210
+  Columns with missing data:
+    - expire_at: 221 (100.0%)
+
+Road America_Race 2_03_Provisional Results_Race 2_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 28
+
+Road America_Race 2_03_Results GR Cup Race 2 Official_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 28
+
+Road America_Race 2_05_Provisional Results by Class_Race 2_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 28
+
+Road America_Race 2_05_Results by Class GR Cup Race 2 Official_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 28
+
+Road America_Race 2_23_AnalysisEnduranceWithSections_Race 2_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 430
+
+Road America_Race 2_26_Weather_Race 2_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 45
+
+Road America_Race 2_99_Best 10 Laps By Driver_Race 2_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 27
+
+Road America_Race 2_R2_road_america_telemetry_data:
+  Completeness: 92.31%
+  Missing values: 11,276,849 / 146,599,037
+  Columns with missing data:
+    - expire_at: 11276849 (100.0%)
+
+Road America_Race 2_road_america_lap_end_R2:
+  Completeness: 90.00%
+  Missing values: 426 / 4,260
+  Columns with missing data:
+    - expire_at: 426 (100.0%)
+
+Road America_Race 2_road_america_lap_start_R2:
+  Completeness: 90.00%
+  Missing values: 426 / 4,260
+  Columns with missing data:
+    - expire_at: 426 (100.0%)
+
+Road America_Race 2_road_america_lap_time_R2:
+  Completeness: 90.00%
+  Missing values: 426 / 4,260
+  Columns with missing data:
+    - expire_at: 426 (100.0%)

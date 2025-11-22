@@ -1,0 +1,207 @@
+
+================================================================================
+EDA SUMMARY REPORT: SONOMA
+================================================================================
+
+DATASETS OVERVIEW:
+--------------------------------------------------------------------------------
+
+Race 1_03_Results_Anonymized:
+  Path: Race 1\03_Results_Anonymized.CSV
+  Rows: 31
+  Columns: 1
+  Size: 0.00 MB
+
+Race 1_05_Results by Class_Race 1_Anonymized:
+  Path: Race 1\05_Results by Class_Race 1_Anonymized.CSV
+  Rows: 31
+  Columns: 1
+  Size: 0.00 MB
+
+Race 1_23_AnalysisEnduranceWithSections_Race 1_Anonymized:
+  Path: Race 1\23_AnalysisEnduranceWithSections_Race 1_Anonymized.CSV
+  Rows: 669
+  Columns: 1
+  Size: 0.16 MB
+
+Race 1_26_Weather_Race 1_Anonymized:
+  Path: Race 1\26_Weather_Race 1_Anonymized.CSV
+  Rows: 45
+  Columns: 1
+  Size: 0.00 MB
+
+Race 1_99_Best 10 Laps By Driver_Race 1_Anonymized:
+  Path: Race 1\99_Best 10 Laps By Driver_Race 1_Anonymized.CSV
+  Rows: 31
+  Columns: 1
+  Size: 0.00 MB
+
+Race 1_sonoma_lap_end_time_R1:
+  Path: Race 1\sonoma_lap_end_time_R1.csv
+  Rows: 1,046
+  Columns: 10
+  Size: 0.14 MB
+
+Race 1_sonoma_lap_start_time_R1:
+  Path: Race 1\sonoma_lap_start_time_R1.csv
+  Rows: 1,046
+  Columns: 10
+  Size: 0.14 MB
+
+Race 1_sonoma_lap_time_R1:
+  Path: Race 1\sonoma_lap_time_R1.csv
+  Rows: 1,046
+  Columns: 10
+  Size: 0.12 MB
+
+Race 1_sonoma_telemetry_R1:
+  Path: Race 1\sonoma_telemetry_R1.csv
+  Rows: 27,476,808
+  Columns: 13
+  Size: 3475.25 MB
+
+Race 2_03_Provisional_Results_Race 2_Anonymized:
+  Path: Race 2\03_Provisional_Results_Race 2_Anonymized.CSV
+  Rows: 31
+  Columns: 1
+  Size: 0.00 MB
+
+Race 2_03_Results_Anonymized:
+  Path: Race 2\03_Results_Anonymized.CSV
+  Rows: 31
+  Columns: 1
+  Size: 0.00 MB
+
+Race 2_05_Provisional_Results by Class_Race 2_Anonymized:
+  Path: Race 2\05_Provisional_Results by Class_Race 2_Anonymized.CSV
+  Rows: 31
+  Columns: 1
+  Size: 0.00 MB
+
+Race 2_23_AnalysisEnduranceWithSections_Race 2_Anonymized:
+  Path: Race 2\23_AnalysisEnduranceWithSections_Race 2_Anonymized.CSV
+  Rows: 650
+  Columns: 1
+  Size: 0.12 MB
+
+Race 2_99_Best 10 Laps By Driver_Race 2_Anonymized:
+  Path: Race 2\99_Best 10 Laps By Driver_Race 2_Anonymized.CSV
+  Rows: 31
+  Columns: 1
+  Size: 0.00 MB
+
+Race 2_sonoma_lap_end_time_R2:
+  Path: Race 2\sonoma_lap_end_time_R2.csv
+  Rows: 687
+  Columns: 10
+  Size: 0.09 MB
+
+Race 2_sonoma_lap_start_time_R2:
+  Path: Race 2\sonoma_lap_start_time_R2.csv
+  Rows: 687
+  Columns: 10
+  Size: 0.09 MB
+
+Race 2_sonoma_lap_time_R2:
+  Path: Race 2\sonoma_lap_time_R2.csv
+  Rows: 687
+  Columns: 10
+  Size: 0.08 MB
+
+Race 2_sonoma_telemetry_R2:
+  Path: Race 2\sonoma_telemetry_R2.csv
+  Rows: 13,616,947
+  Columns: 13
+  Size: 1725.96 MB
+
+
+DATA QUALITY:
+--------------------------------------------------------------------------------
+
+Race 1_03_Results_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 31
+
+Race 1_05_Results by Class_Race 1_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 31
+
+Race 1_23_AnalysisEnduranceWithSections_Race 1_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 669
+
+Race 1_26_Weather_Race 1_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 45
+
+Race 1_99_Best 10 Laps By Driver_Race 1_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 31
+
+Race 1_sonoma_lap_end_time_R1:
+  Completeness: 90.00%
+  Missing values: 1,046 / 10,460
+  Columns with missing data:
+    - expire_at: 1046 (100.0%)
+
+Race 1_sonoma_lap_start_time_R1:
+  Completeness: 90.00%
+  Missing values: 1,046 / 10,460
+  Columns with missing data:
+    - expire_at: 1046 (100.0%)
+
+Race 1_sonoma_lap_time_R1:
+  Completeness: 90.00%
+  Missing values: 1,046 / 10,460
+  Columns with missing data:
+    - expire_at: 1046 (100.0%)
+
+Race 1_sonoma_telemetry_R1:
+  Completeness: 92.31%
+  Missing values: 27,476,808 / 357,198,504
+  Columns with missing data:
+    - expire_at: 27476808 (100.0%)
+
+Race 2_03_Provisional_Results_Race 2_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 31
+
+Race 2_03_Results_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 31
+
+Race 2_05_Provisional_Results by Class_Race 2_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 31
+
+Race 2_23_AnalysisEnduranceWithSections_Race 2_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 650
+
+Race 2_99_Best 10 Laps By Driver_Race 2_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 31
+
+Race 2_sonoma_lap_end_time_R2:
+  Completeness: 90.00%
+  Missing values: 687 / 6,870
+  Columns with missing data:
+    - expire_at: 687 (100.0%)
+
+Race 2_sonoma_lap_start_time_R2:
+  Completeness: 90.00%
+  Missing values: 687 / 6,870
+  Columns with missing data:
+    - expire_at: 687 (100.0%)
+
+Race 2_sonoma_lap_time_R2:
+  Completeness: 90.00%
+  Missing values: 687 / 6,870
+  Columns with missing data:
+    - expire_at: 687 (100.0%)
+
+Race 2_sonoma_telemetry_R2:
+  Completeness: 92.31%
+  Missing values: 13,616,947 / 177,020,311
+  Columns with missing data:
+    - expire_at: 13616947 (100.0%)

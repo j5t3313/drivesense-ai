@@ -1,0 +1,227 @@
+
+================================================================================
+EDA SUMMARY REPORT: SEBRING
+================================================================================
+
+DATASETS OVERVIEW:
+--------------------------------------------------------------------------------
+
+Race 1_00_Results GR Race 1 Official_Anonymized:
+  Path: Race 1\00_Results GR Race 1 Official_Anonymized.CSV
+  Rows: 22
+  Columns: 1
+  Size: 0.00 MB
+
+Race 1_03_Provisional Results_Race 1_Anonymized:
+  Path: Race 1\03_Provisional Results_Race 1_Anonymized.CSV
+  Rows: 22
+  Columns: 1
+  Size: 0.00 MB
+
+Race 1_05_Provisional Results by Class_Race 1_Anonymized:
+  Path: Race 1\05_Provisional Results by Class_Race 1_Anonymized.CSV
+  Rows: 22
+  Columns: 1
+  Size: 0.00 MB
+
+Race 1_23_AnalysisEnduranceWithSections_Race 1_Anonymized:
+  Path: Race 1\23_AnalysisEnduranceWithSections_Race 1_Anonymized.CSV
+  Rows: 401
+  Columns: 1
+  Size: 0.09 MB
+
+Race 1_26_Weather_Race 1_Anonymized:
+  Path: Race 1\26_Weather_Race 1_Anonymized.CSV
+  Rows: 45
+  Columns: 1
+  Size: 0.00 MB
+
+Race 1_99_Best 10 Laps By Driver_Race 1_Anonymized:
+  Path: Race 1\99_Best 10 Laps By Driver_Race 1_Anonymized.CSV
+  Rows: 22
+  Columns: 1
+  Size: 0.00 MB
+
+Race 1_sebring_lap_end_time_R1:
+  Path: Race 1\sebring_lap_end_time_R1.csv
+  Rows: 461
+  Columns: 10
+  Size: 0.06 MB
+
+Race 1_sebring_lap_start_time_R1:
+  Path: Race 1\sebring_lap_start_time_R1.csv
+  Rows: 461
+  Columns: 10
+  Size: 0.06 MB
+
+Race 1_sebring_lap_time_R1:
+  Path: Race 1\sebring_lap_time_R1.csv
+  Rows: 461
+  Columns: 10
+  Size: 0.05 MB
+
+Race 1_sebring_telemetry_R1:
+  Path: Race 1\sebring_telemetry_R1.csv
+  Rows: 14,216,998
+  Columns: 13
+  Size: 1774.68 MB
+
+Race 2_00_Results GR Race 2 Official_Anonymized:
+  Path: Race 2\00_Results GR Race 2 Official_Anonymized.CSV
+  Rows: 22
+  Columns: 1
+  Size: 0.00 MB
+
+Race 2_03_Provisional Results_Race 2_Anonymized:
+  Path: Race 2\03_Provisional Results_Race 2_Anonymized.CSV
+  Rows: 22
+  Columns: 1
+  Size: 0.00 MB
+
+Race 2_05_Provisional Results by Class_Race 2_Anonymized:
+  Path: Race 2\05_Provisional Results by Class_Race 2_Anonymized.CSV
+  Rows: 22
+  Columns: 1
+  Size: 0.00 MB
+
+Race 2_23_AnalysisEnduranceWithSections_Race 2_Anonymized:
+  Path: Race 2\23_AnalysisEnduranceWithSections_Race 2_Anonymized.CSV
+  Rows: 332
+  Columns: 1
+  Size: 0.08 MB
+
+Race 2_26_Weather_Race 2_Anonymized:
+  Path: Race 2\26_Weather_Race 2_Anonymized.CSV
+  Rows: 38
+  Columns: 1
+  Size: 0.00 MB
+
+Race 2_99_Best 10 Laps By Driver_Race 2_Anonymized:
+  Path: Race 2\99_Best 10 Laps By Driver_Race 2_Anonymized.CSV
+  Rows: 21
+  Columns: 1
+  Size: 0.00 MB
+
+Race 2_sebring_lap_end_time_R2:
+  Path: Race 2\sebring_lap_end_time_R2.csv
+  Rows: 427
+  Columns: 10
+  Size: 0.06 MB
+
+Race 2_sebring_lap_start_time_R2:
+  Path: Race 2\sebring_lap_start_time_R2.csv
+  Rows: 427
+  Columns: 10
+  Size: 0.06 MB
+
+Race 2_sebring_lap_time_R2:
+  Path: Race 2\sebring_lap_time_R2.csv
+  Rows: 427
+  Columns: 10
+  Size: 0.05 MB
+
+Race 2_sebring_telemetry_R2:
+  Path: Race 2\sebring_telemetry_R2.csv
+  Rows: 2,394,340
+  Columns: 10
+  Size: 815.60 MB
+
+
+DATA QUALITY:
+--------------------------------------------------------------------------------
+
+Race 1_00_Results GR Race 1 Official_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 22
+
+Race 1_03_Provisional Results_Race 1_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 22
+
+Race 1_05_Provisional Results by Class_Race 1_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 22
+
+Race 1_23_AnalysisEnduranceWithSections_Race 1_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 401
+
+Race 1_26_Weather_Race 1_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 45
+
+Race 1_99_Best 10 Laps By Driver_Race 1_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 22
+
+Race 1_sebring_lap_end_time_R1:
+  Completeness: 90.00%
+  Missing values: 461 / 4,610
+  Columns with missing data:
+    - expire_at: 461 (100.0%)
+
+Race 1_sebring_lap_start_time_R1:
+  Completeness: 90.00%
+  Missing values: 461 / 4,610
+  Columns with missing data:
+    - expire_at: 461 (100.0%)
+
+Race 1_sebring_lap_time_R1:
+  Completeness: 90.00%
+  Missing values: 461 / 4,610
+  Columns with missing data:
+    - expire_at: 461 (100.0%)
+
+Race 1_sebring_telemetry_R1:
+  Completeness: 92.31%
+  Missing values: 14,216,998 / 184,820,974
+  Columns with missing data:
+    - expire_at: 14216998 (100.0%)
+
+Race 2_00_Results GR Race 2 Official_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 22
+
+Race 2_03_Provisional Results_Race 2_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 22
+
+Race 2_05_Provisional Results by Class_Race 2_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 22
+
+Race 2_23_AnalysisEnduranceWithSections_Race 2_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 332
+
+Race 2_26_Weather_Race 2_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 38
+
+Race 2_99_Best 10 Laps By Driver_Race 2_Anonymized:
+  Completeness: 100.00%
+  Missing values: 0 / 21
+
+Race 2_sebring_lap_end_time_R2:
+  Completeness: 90.00%
+  Missing values: 427 / 4,270
+  Columns with missing data:
+    - expire_at: 427 (100.0%)
+
+Race 2_sebring_lap_start_time_R2:
+  Completeness: 90.00%
+  Missing values: 427 / 4,270
+  Columns with missing data:
+    - expire_at: 427 (100.0%)
+
+Race 2_sebring_lap_time_R2:
+  Completeness: 90.00%
+  Missing values: 427 / 4,270
+  Columns with missing data:
+    - expire_at: 427 (100.0%)
+
+Race 2_sebring_telemetry_R2:
+  Completeness: 90.00%
+  Missing values: 2,394,340 / 23,943,400
+  Columns with missing data:
+    - expire_at: 2394340 (100.0%)
