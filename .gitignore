@@ -1,7 +1,9 @@
-*.csv 
-*.CSV 
-__pycache__/ 
-*.pyc 
-.streamlit/ 
-visualizations/ 
-live_session/ 
+R1_barber_telemetry_data.csv
+R2_barber_telemetry_data.csv
+R1_indianapolis_motor_speedway_telemetry.csv
+R2_indianapolis_motor_speedway_telemetry.csv
+__pycache__/
+*.pyc
+.streamlit/
+visualizations/
+live_session/
