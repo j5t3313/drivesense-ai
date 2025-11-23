@@ -9,14 +9,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-import os
-from cloud_storage import CloudStorage
-
-if os.getenv('R2_ENDPOINT'):
-    storage = CloudStorage()
-    if storage.ensure_data_downloaded():
-        os.environ['PROCESSED_DATA_DIR'] = str(storage.get_local_data_path())
-
 st.markdown("""
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
