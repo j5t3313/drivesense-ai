@@ -2,6 +2,8 @@
 
 **Gradient-Based Behavioral Classification for Racing Telemetry**
 
+**Try it out:** drivesense-ai-production.up.railway.app
+
 Analyzes steering, brake, and throttle derivatives to identify driver mistakes versus intentional technique variations.
 
 **Hackathon Category:** Driver Training/Insights  
@@ -276,7 +278,7 @@ drivesense-ai/
 
 ## Video Demonstration
 
-[Link to 3-minute demo video showing live session analysis with automatic file watcher]
+https://www.youtube.com/watch?v=eXz307PFRh0
 
 The video demonstrates:
 - Real-time lap processing with automatic file monitoring
