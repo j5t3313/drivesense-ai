@@ -9,3 +9,4 @@ visualizations/
 live_session/
 *_telemetry_data.csv
 *_telemetry.csv
+.wrangler/
