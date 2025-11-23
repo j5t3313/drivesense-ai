@@ -168,7 +168,7 @@ st.markdown("""
 st.title("🔴 Live Race Analysis Demo")
 
 WATCH_DIR = Path("live_session/incoming")
-PROCESSED_DATA_DIR = Path("processed_data")
+PROCESSED_DATA_DIR = Path(os.getenv('PROCESSED_DATA_DIR', 'processed_data'))
 
 if 'live_analyzer' not in st.session_state:
     st.session_state.live_analyzer = None
