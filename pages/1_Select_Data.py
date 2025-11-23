@@ -161,7 +161,7 @@ st.markdown("""
 
 st.title("Select Data")
 
-PROCESSED_DATA_DIR = Path(os.getenv('PROCESSED_DATA_DIR', 'processed_data'))
+PROCESSED_DATA_DIR = Path("processed_data")
 
 if not PROCESSED_DATA_DIR.exists():
     st.error("Processed data directory not found. Run preprocess_data.py first.")
