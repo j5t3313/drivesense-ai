@@ -206,7 +206,7 @@ for corner_file in corner_files:
             st.markdown(f"**Confidence:** {analysis['confidence']:.1f}%")
             st.markdown(f"**Priority:** {analysis['recommendation']['priority']}")
     
-    st.image(str(corner_file), use_container_width=True)
+    st.image(str(corner_file))
     
     if detailed_results and corner_name in detailed_results['corners']:
         analysis = detailed_results['corners'][corner_name]
