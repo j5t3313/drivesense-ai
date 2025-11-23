@@ -1,6 +1,13 @@
 import streamlit as st
 import sys
 from pathlib import Path
+import os
+from cloud_storage import CloudStorage
+
+if os.getenv('R2_ENDPOINT'):
+    storage = CloudStorage()
+    if storage.ensure_data_downloaded():
+        os.environ['PROCESSED_DATA_DIR'] = str(storage.get_local_data_path())
 
 st.set_page_config(
     page_title="DriveSense AI",
