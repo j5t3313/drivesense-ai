@@ -1,0 +1,6 @@
+processed_data/
+live_session/
+visualizations/
+__pycache__/
+*.pyc
+.git/
