@@ -322,26 +322,6 @@ All components are used in compliance with their respective licenses.
 
 ---
 
-## Technical Validation
-
-**Classification Accuracy:**
-- Manual validation against expert driver analysis
-- Confidence thresholds tuned to minimize false positives
-- Evidence-based recommendations with quantified metrics
-
-**Performance:**
-- Single lap analysis: <2 seconds
-- Multi-lap (15 laps): <5 seconds  
-- Live processing latency: <1 second per lap
-- Memory efficient: processes 3GB files in chunks
-
-**Scalability:**
-- Modular corner configurations per track
-- Extensible classification system
-- Parallel processing ready (future enhancement)
-
----
-
 **Note:** This application is designed for local deployment to support automatic file monitoring capabilities. The live session feature uses Python's `watchdog` library to monitor incoming telemetry files, enabling real-time analysis for pit-side deployment scenarios.
 
 - Requires high-quality distance data for gradient analysis
