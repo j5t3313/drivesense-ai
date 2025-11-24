@@ -37,7 +37,7 @@ Traditional telemetry systems show **WHERE** time is lost. DriveSense AI reveals
 - Python 3.10 or higher
 - Toyota GR Cup Series telemetry datasets for Barber and Indianapolis (too large to include in repo)
 
-**Note:**Preprocessed data files ARE included in the repo and are sufficient to run the app demo. If going this route, simply clone the repo (Step 1 below) and launch the app (Step 5 below).
+**Note:** Preprocessed data files ARE included in the repo and are sufficient to run the app demo. If going this route, simply clone the repo (Step 1 below), install the dependencies (Step 2 below) and launch the app (Step 5 below).
 
 ### Setup Instructions
 
